@@ -1,0 +1,15 @@
+SIMULADOR ITSQMET
+
+1. Extrae el ZIP completo en una carpeta.
+2. Abre index.html haciendo doble clic.
+3. Elige Núcleo 1, Núcleo 2 o Simulacro combinado.
+4. Selecciona práctica o examen, cantidad de preguntas y comienza.
+5. Al finalizar, revisa tus respuestas y resultados.
+
+Funciona sin Internet ni servidor. Mantén todos los archivos juntos.
+Los resultados se almacenan en el navegador del mismo equipo (localStorage).
+Las 120 preguntas proceden de los 8 cuestionarios PDF proporcionados.
+En preguntas de completar, el comparador tolera diferencias de mayúsculas,
+acentos y espacios, pero no sinónimos o respuestas alternativas.
+Si una respuesta oficial contiene errores o una redacción discutible,
+se conserva la respuesta indicada por la plataforma de origen.

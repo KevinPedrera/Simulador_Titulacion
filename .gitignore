@@ -1,0 +1,11 @@
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Dependencias y salidas temporales
+node_modules/
+*.log
+*.tmp
+*.bak
+*.zip
