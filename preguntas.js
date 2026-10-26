@@ -2181,6 +2181,174 @@ window.PREGUNTAS = [
   },
   {
     "type": "choice",
+    "id": "N3-GUIA-Q01",
+    "nucleus": 3,
+    "partial": 0,
+    "number": 1,
+    "question": "Según la guía del núcleo 3, ¿qué función cumplen los componentes contenedores?",
+    "options": [
+      "Gestionar estado y lógica e interactuar con APIs o bases de datos",
+      "Mostrar únicamente estilos sin gestionar información",
+      "Sustituir todas las peticiones HTTP por archivos CSS",
+      "Evitar enviar información a componentes de presentación"
+    ],
+    "correct": 0,
+    "answer": "Gestionar estado y lógica e interactuar con APIs o bases de datos",
+    "source": "Guía de estudio - nucleo3.pdf · 4.2.3, Componentes Contenedores",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1nu6jIsqUi3VlkW7C2WZ0CnmLGEvjBOIv/view",
+    "guideConcept": "Componentes contenedores",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N3-GUIA-Q02",
+    "nucleus": 3,
+    "partial": 0,
+    "number": 2,
+    "question": "¿Qué lenguaje identifica la guía como base para construir interfaces con Flutter?",
+    "options": [
+      "Dart",
+      "SQL",
+      "JavaScript y JSX obligatoriamente",
+      "HTML"
+    ],
+    "correct": 0,
+    "answer": "Dart",
+    "source": "Guía de estudio - nucleo3.pdf · 4.2.2, Fundamentos Teóricos",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1nu6jIsqUi3VlkW7C2WZ0CnmLGEvjBOIv/view",
+    "guideConcept": "Flutter y Dart",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N3-GUIA-Q03",
+    "nucleus": 3,
+    "partial": 0,
+    "number": 3,
+    "question": "Según el apartado de métodos HTTP de la guía, ¿qué operación realiza PUT?",
+    "options": [
+      "Actualizar datos existentes en el servidor",
+      "Solicitar únicamente datos sin modificarlos",
+      "Eliminar siempre el recurso",
+      "Iniciar sesión en Firebase automáticamente"
+    ],
+    "correct": 0,
+    "answer": "Actualizar datos existentes en el servidor",
+    "source": "Guía de estudio - nucleo3.pdf · 5.2.1, Métodos HTTP",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1nu6jIsqUi3VlkW7C2WZ0CnmLGEvjBOIv/view",
+    "guideConcept": "Método HTTP PUT",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N3-GUIA-Q04",
+    "nucleus": 3,
+    "partial": 0,
+    "number": 4,
+    "question": "¿Cuál es el propósito del método HTTP DELETE en la guía?",
+    "options": [
+      "Eliminar datos del servidor",
+      "Enviar un formulario nuevo para crearlo",
+      "Obtener datos existentes sin cambiarlos",
+      "Actualizar una vista local sin petición HTTP"
+    ],
+    "correct": 0,
+    "answer": "Eliminar datos del servidor",
+    "source": "Guía de estudio - nucleo3.pdf · 5.2.1, Métodos HTTP",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1nu6jIsqUi3VlkW7C2WZ0CnmLGEvjBOIv/view",
+    "guideConcept": "Método HTTP DELETE",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N3-GUIA-Q05",
+    "nucleus": 3,
+    "partial": 0,
+    "number": 5,
+    "question": "¿Qué elementos básicos permiten construir y reutilizar interfaces móviles en React Native o Flutter?",
+    "options": [
+      "Componentes o widgets",
+      "Únicamente procedimientos almacenados SQL",
+      "Solo archivos de configuración de servidor",
+      "Exclusivamente colecciones de MongoDB"
+    ],
+    "correct": 0,
+    "answer": "Componentes o widgets",
+    "source": "Guía de estudio - nucleo3.pdf · 4.1, Objetivos Específicos y componentes",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1nu6jIsqUi3VlkW7C2WZ0CnmLGEvjBOIv/view",
+    "guideConcept": "React Native y Flutter - bloques de interfaz",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N3-GUIA-Q06",
+    "nucleus": 3,
+    "partial": 0,
+    "number": 6,
+    "question": "¿Qué modalidad adicional de autenticación reconoce la guía como compatible con Firebase Authentication?",
+    "options": [
+      "Autenticación anónima",
+      "Únicamente SQL con contraseña de administrador",
+      "Solo autenticación biométrica obligatoria",
+      "Acceso únicamente mediante claves físicas"
+    ],
+    "correct": 0,
+    "answer": "Autenticación anónima",
+    "source": "Guía de estudio - nucleo3.pdf · 6.2.1, Firebase Authentication",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1nu6jIsqUi3VlkW7C2WZ0CnmLGEvjBOIv/view",
+    "guideConcept": "Autenticación anónima - Firebase",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N3-GUIA-Q07",
+    "nucleus": 3,
+    "partial": 0,
+    "number": 7,
+    "question": "Además de bases de datos y autenticación, ¿qué otras capacidades menciona la guía como servicios de Firebase?",
+    "options": [
+      "Almacenamiento en la nube y notificaciones push",
+      "Solo compilación local de CSS",
+      "Únicamente diagramas UML",
+      "Exclusivamente edición de documentos Word"
+    ],
+    "correct": 0,
+    "answer": "Almacenamiento en la nube y notificaciones push",
+    "source": "Guía de estudio - nucleo3.pdf · 6.2.1, Firebase",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1nu6jIsqUi3VlkW7C2WZ0CnmLGEvjBOIv/view",
+    "guideConcept": "Servicios backend de Firebase",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N3-GUIA-Q08",
+    "nucleus": 3,
+    "partial": 0,
+    "number": 8,
+    "question": "¿Qué aspecto del consumo de APIs destaca la guía, además de recibir datos JSON?",
+    "options": [
+      "Manejar errores de solicitudes y actualizar la interfaz con los datos recibidos",
+      "Suprimir siempre todas las respuestas del servidor",
+      "Usar solo archivos físicos del dispositivo",
+      "Evitar toda comunicación con servicios externos"
+    ],
+    "correct": 0,
+    "answer": "Manejar errores de solicitudes y actualizar la interfaz con los datos recibidos",
+    "source": "Guía de estudio - nucleo3.pdf · 5.2.2, Aplicación de conceptos y manejo de errores",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1nu6jIsqUi3VlkW7C2WZ0CnmLGEvjBOIv/view",
+    "guideConcept": "Integración de APIs - errores",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
     "options": [
       "Google Sheets o Excel",
       "Adobe Photoshop o Illustrator",
@@ -2878,6 +3046,216 @@ window.PREGUNTAS = [
     "answer": "Validar y cifrar las contraseñas correctamente",
     "source": "NUCLEO 3 PRUEBA 4.pdf",
     "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N4-GUIA-Q01",
+    "nucleus": 4,
+    "partial": 0,
+    "number": 1,
+    "question": "En la guía de Angular, ¿qué define una ruta estática?",
+    "options": [
+      "Una dirección que apunta a un componente definido, como /inicio",
+      "Una URL que necesariamente contiene un parámetro variable",
+      "Un almacenamiento exclusivo de archivos JSON",
+      "Una autorización automática para cualquier usuario"
+    ],
+    "correct": 0,
+    "answer": "Una dirección que apunta a un componente definido, como /inicio",
+    "source": "Guía Núcleo Aplicaciones Web.pdf · 4.2.1, Ruta Estática",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1x_96HtpRxgsboD2dHXQPA6w3Xqs2vAiA/view",
+    "guideConcept": "Ruta estática",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N4-GUIA-Q02",
+    "nucleus": 4,
+    "partial": 0,
+    "number": 2,
+    "question": "¿Qué caracteriza a una ruta dinámica de Angular?",
+    "options": [
+      "Incluye parámetros variables en la URL, como /proyectos/:id",
+      "Siempre dirige a la misma vista sin parámetros",
+      "Solo puede existir sin un componente",
+      "Se utiliza únicamente para escribir estilos CSS"
+    ],
+    "correct": 0,
+    "answer": "Incluye parámetros variables en la URL, como /proyectos/:id",
+    "source": "Guía Núcleo Aplicaciones Web.pdf · 4.2.1, Ruta Dinámica",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1x_96HtpRxgsboD2dHXQPA6w3Xqs2vAiA/view",
+    "guideConcept": "Ruta dinámica",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N4-GUIA-Q03",
+    "nucleus": 4,
+    "partial": 0,
+    "number": 3,
+    "question": "¿Para qué se utiliza una página de error 404 según la guía?",
+    "options": [
+      "Informar al usuario cuando intenta abrir una ruta no configurada",
+      "Guardar registros de usuarios autenticados",
+      "Definir una colección de Firestore",
+      "Eliminar formularios incompletos"
+    ],
+    "correct": 0,
+    "answer": "Informar al usuario cuando intenta abrir una ruta no configurada",
+    "source": "Guía Núcleo Aplicaciones Web.pdf · 4.2.1, Página de Error 404",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1x_96HtpRxgsboD2dHXQPA6w3Xqs2vAiA/view",
+    "guideConcept": "Página 404",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N4-GUIA-Q04",
+    "nucleus": 4,
+    "partial": 0,
+    "number": 4,
+    "question": "¿Qué describe Two-way Data Binding en Angular?",
+    "options": [
+      "La sincronización entre datos del modelo y la vista",
+      "La eliminación completa de los componentes",
+      "La ejecución de consultas MongoDB sin servicios",
+      "La compresión de los archivos del proyecto"
+    ],
+    "correct": 0,
+    "answer": "La sincronización entre datos del modelo y la vista",
+    "source": "Guía Núcleo Aplicaciones Web.pdf · 4.2.1, Two-way Data Binding",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1x_96HtpRxgsboD2dHXQPA6w3Xqs2vAiA/view",
+    "guideConcept": "Two-way Data Binding",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N4-GUIA-Q05",
+    "nucleus": 4,
+    "partial": 0,
+    "number": 5,
+    "question": "¿Para qué sirve Angular CLI en el desarrollo web?",
+    "options": [
+      "Crear, configurar y gestionar proyectos mediante comandos como ng new o ng generate",
+      "Crear exclusivamente consultas SQL",
+      "Diseñar físicamente el almacenamiento del servidor",
+      "Reemplazar los componentes Angular por archivos PDF"
+    ],
+    "correct": 0,
+    "answer": "Crear, configurar y gestionar proyectos mediante comandos como ng new o ng generate",
+    "source": "Guía Núcleo Aplicaciones Web.pdf · 4.2.1, CLI de Angular",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1x_96HtpRxgsboD2dHXQPA6w3Xqs2vAiA/view",
+    "guideConcept": "Angular CLI",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N4-GUIA-Q06",
+    "nucleus": 4,
+    "partial": 0,
+    "number": 6,
+    "question": "¿Qué servicio o módulo utiliza Angular para realizar solicitudes HTTP a APIs?",
+    "options": [
+      "HttpClient",
+      "RouterStateSnapshot",
+      "FormArray",
+      "CanDeactivate"
+    ],
+    "correct": 0,
+    "answer": "HttpClient",
+    "source": "Guía Núcleo Aplicaciones Web.pdf · 5.2.1, HTTPClient",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1x_96HtpRxgsboD2dHXQPA6w3Xqs2vAiA/view",
+    "guideConcept": "HttpClient",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N4-GUIA-Q07",
+    "nucleus": 4,
+    "partial": 0,
+    "number": 7,
+    "question": "Según la guía de aplicaciones web, ¿cuáles son las operaciones CRUD?",
+    "options": [
+      "Crear, leer, actualizar y eliminar",
+      "Compilar, renderizar, utilizar y descargar",
+      "Conectar, recargar, unir y depurar",
+      "Copiar, renombrar, ubicar y desplegar"
+    ],
+    "correct": 0,
+    "answer": "Crear, leer, actualizar y eliminar",
+    "source": "Guía Núcleo Aplicaciones Web.pdf · 5.2.1, Operaciones CRUD",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1x_96HtpRxgsboD2dHXQPA6w3Xqs2vAiA/view",
+    "guideConcept": "Operaciones CRUD",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N4-GUIA-Q08",
+    "nucleus": 4,
+    "partial": 0,
+    "number": 8,
+    "question": "¿Qué permite la inyección de dependencias en Angular?",
+    "options": [
+      "Proporcionar instancias de servicios a los componentes que las necesitan",
+      "Diseñar tablas SQL a partir de CSS",
+      "Evitar que un componente utilice servicios",
+      "Convertir las rutas en documentos JSON"
+    ],
+    "correct": 0,
+    "answer": "Proporcionar instancias de servicios a los componentes que las necesitan",
+    "source": "Guía Núcleo Aplicaciones Web.pdf · 5.2.1, Inyección de Dependencias",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1x_96HtpRxgsboD2dHXQPA6w3Xqs2vAiA/view",
+    "guideConcept": "Inyección de dependencias Angular",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N4-GUIA-Q09",
+    "nucleus": 4,
+    "partial": 0,
+    "number": 9,
+    "question": "Según la guía, ¿qué contiene ActivatedRouteSnapshot?",
+    "options": [
+      "Información de la ruta activa, incluidos parámetros y datos, en un momento dado",
+      "Únicamente el historial completo de la base de datos",
+      "Los estilos globales del proyecto Angular",
+      "Solo los campos de un formulario ya enviado"
+    ],
+    "correct": 0,
+    "answer": "Información de la ruta activa, incluidos parámetros y datos, en un momento dado",
+    "source": "Guía Núcleo Aplicaciones Web.pdf · 6.2.1, ActivatedRouteSnapshot",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1x_96HtpRxgsboD2dHXQPA6w3Xqs2vAiA/view",
+    "guideConcept": "ActivatedRouteSnapshot",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N4-GUIA-Q10",
+    "nucleus": 4,
+    "partial": 0,
+    "number": 10,
+    "question": "¿Para qué se utiliza RouterStateSnapshot en Angular?",
+    "options": [
+      "Examinar el estado completo del enrutador en un instante determinado",
+      "Realizar peticiones HTTP a Firestore",
+      "Crear automáticamente formularios reactivos",
+      "Definir la contraseña del administrador"
+    ],
+    "correct": 0,
+    "answer": "Examinar el estado completo del enrutador en un instante determinado",
+    "source": "Guía Núcleo Aplicaciones Web.pdf · 6.2.1, RouterStateSnapshot",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1x_96HtpRxgsboD2dHXQPA6w3Xqs2vAiA/view",
+    "guideConcept": "RouterStateSnapshot",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición o explicación de la guía; no procede de un examen parcial."
   },
   {
     "type": "choice",
