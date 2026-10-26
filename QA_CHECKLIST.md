@@ -30,3 +30,16 @@ La auditoría de materiales y sus enlaces está centralizada en Google Drive:
 https://docs.google.com/document/d/18wAVBIRJWlDghIcVKZsTpxmJ8TAqTv8lfwTCTBLRnFE/edit
 
 **Nota:** el valor 237 corresponde a preguntas de opción múltiple y respuesta breve de dos orígenes: 199 evaluaciones distintas y 38 ejercicios redactados a partir de conceptos documentados en guías. No debe confundirse con 237 preguntas textuales oficiales.
+
+## Versión v17 — Examen guiado por voz (26 de octubre de 2026)
+
+- **Modalidad adicional:** `voice-guide.js`, entrada independiente desde el dashboard sin modificar el examen teórico de 60 minutos.
+- **Idioma solicitado:** `es-MX` para lectura y reconocimiento; el sintetizador selecciona primero una voz `es-MX` disponible en el dispositivo y, si no existe, otra voz en español.
+- **Interacción:** pregunta leída en voz alta y opciones A, B, C, D (y E si procede); selección por voz o pantalla; confirmación obligatoria antes de calificar; respuesta inmediata con corrección; comando «siguiente», «repetir», «pausa» y «terminar».
+- **Seguridad de calificación:** no se califica una transcripción libre aproximada ni una frase ambigua. Solo letras o comandos reconocidos estrictamente y confirmados. Se conserva el corrector determinista.
+- **Guardar y continuar:** almacena el progreso guiado en `localStorage`; desde el dashboard puede retomarse; al finalizar guarda un intento en el historial existente, con respuestas y fuentes.
+- **Revisión:** se muestran los tres filtros `Todas`, `Correctas` e `Incorrectas` sobre la revisión completa, tanto al terminar un examen como al abrir su historial.
+- **Respaldo manual:** todas las opciones pueden tocarse sin micrófono; la voz depende del soporte Web Speech API del navegador y del sistema operativo.
+- **Privacidad y coste:** no se usa ninguna API de OpenAI. `SpeechRecognition` puede enviar audio a servidores del proveedor del navegador y no siempre funciona sin conexión. No se promete que la voz suene como ChatGPT Voice.
+- **Pruebas estáticas:** `app.js`, `voice-guide.js` y `sw.js` pasaron análisis de sintaxis. El parser de voz pasó pruebas con «opción a», «opción b», «la opción c», «respuesta D», «elijo la opción A» y rechazó entradas ambiguas. Todavía se requiere prueba real del micrófono, la voz y la recuperación desde Windows/iOS.
+
