@@ -2,11 +2,11 @@
 
 Proyecto Firebase: `appmoviliii`.
 
-## 1. Habilitar inicio de sesión Google
+## 1. Habilitar inicio de sesión por correo y contraseña
 
-Firebase Console > Authentication > Sign-in method > Google > Habilitar.
+Firebase Console > Authentication > Sign-in method > Correo electrónico/contraseña > Habilitar. No necesitas habilitar Google.
 
-En Authentication > Settings > Authorized domains, verificar que `kevinpedrera.github.io` esté autorizado. Si no aparece, agregarlo.
+Puedes registrarte con cualquier correo real al que tengas acceso; no tiene que ser Gmail. Utiliza la misma cuenta en computadora y celular.
 
 ## 2. Crear Firestore
 
@@ -34,7 +34,7 @@ Estas reglas aíslan las sesiones por cuenta autenticada. Son adecuadas para un 
 
 ## 4. Probar
 
-En la computadora: iniciar simulacro > Transferir a otro dispositivo > Guardar sesión y generar PIN. Autorizar acceso Google. En el celular: abrir el sitio > Importar sesión de otro dispositivo > iniciar con la **misma cuenta** > introducir PIN.
+En la computadora: iniciar simulacro > Transferir a otro dispositivo > Guardar sesión y generar PIN. Iniciar sesión con correo y contraseña. En el celular: abrir el sitio > Importar sesión de otro dispositivo > iniciar con el **mismo correo y contraseña** > introducir PIN.
 
 El PIN dura 24 horas. El temporizador sigue corriendo. Las sesiones permanecen en Firestore hasta su eliminación manual o configuración de TTL; la expiración en la interfaz no borra automáticamente documentos no consultados. Puedes habilitar una política TTL sobre `expiresAt` solo si cambias el tipo a Timestamp y ajustas el código. Actualmente es un número en milisegundos.
 
