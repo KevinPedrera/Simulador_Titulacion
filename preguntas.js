@@ -234,7 +234,7 @@ window.PREGUNTAS = [
       "spring.jpa.hibernate.ddl-auto=create"
     ],
     "correct": 0,
-    "answer": "spring.jpa.database- platform=org.hibernate.dialect.MySQLDialect",
+    "answer": "spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect",
     "id": "N1-P1-Q18",
     "nucleus": 1,
     "partial": 1,
