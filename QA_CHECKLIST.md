@@ -43,3 +43,14 @@ https://docs.google.com/document/d/18wAVBIRJWlDghIcVKZsTpxmJ8TAqTv8lfwTCTBLRnFE/
 - **Privacidad y coste:** no se usa ninguna API de OpenAI. `SpeechRecognition` puede enviar audio a servidores del proveedor del navegador y no siempre funciona sin conexión. No se promete que la voz suene como ChatGPT Voice.
 - **Pruebas estáticas:** `app.js`, `voice-guide.js` y `sw.js` pasaron análisis de sintaxis. El parser de voz pasó pruebas con «opción a», «opción b», «la opción c», «respuesta D», «elijo la opción A» y rechazó entradas ambiguas. Todavía se requiere prueba real del micrófono, la voz y la recuperación desde Windows/iOS.
 
+
+## v19 — ahorro de datos, revisión larga y voz directa (26-10-2026)
+
+- Se añadió `data-saver.js` (configuración local persistente). Por defecto activo en iPhone/iPad/Android y en navegadores que indiquen `saveData` o conexión celular; también hay un interruptor en el dashboard para desactivarlo.
+- Con ahorro activo, el examinador guiado no reproduce MP3, no sintetiza voz y no activa reconocimiento por micrófono. Se puede responder tocando las opciones y seguir obteniendo corrección y guardado local.
+- Se redujo la frecuencia de sincronización Firebase del intento cuando está activado el ahorro (debounce ~3,5 segundos y checkpoint de temporizador ~60 segundos); el almacenamiento local se mantiene inmediato. No se desactiva Firebase ni se garantiza un consumo cero.
+- Se incorporó `Volver al inicio` después de la última respuesta en la revisión del resultado y en la revisión del historial, sin necesidad de desplazarse al encabezado.
+- Voz opcional: se aceptan «la A», «la B», «la opción C», «opción D», «elijo la A» y formas equivalentes; una opción inequívoca se califica directamente y se muestra su resultado, sin pedir confirmación extra. Comandos ambiguos como «opción B o C» se rechazan.
+- La robustez acústica sigue limitada por `SpeechRecognition` del navegador y el ruido ambiental; estos cambios mejoran interpretación del texto reconocido, pero no sustituyen el motor acústico ni garantizan conversación fluida.
+- En Safari iOS no se dispone de un detector fiable de red celular; por protección del plan de datos, el ahorro se inicia activo en móviles hasta que el usuario lo desactive.
+- Verificación: pruebas estáticas de `app.js`, `voice-guide.js`, `data-saver.js`, `sw.js`, intérprete de respuestas y versión PWA v19 correctas. Pendiente probar audio, reconocimiento y consumo real en dispositivos físicos.
