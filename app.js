@@ -6,7 +6,7 @@ const unique=()=>{const seen=new Set();return raw.filter(q=>{if(!q||!q.id||!q.qu
 const bank=unique(),shuffle=a=>{const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b};
 const fmt=s=>Math.floor(s/3600).toString().padStart(2,'0')+':'+Math.floor(s%3600/60).toString().padStart(2,'0')+':'+Math.floor(s%60).toString().padStart(2,'0');
 const SESSION_KEY='itsqmet-active-session-v2';
-const readSession=()=>{try{const v=JSON.parse(localStorage.getItem(SESSION_KEY)||'null');return v&&v.version===2&&Array.isArray(v.questions)&&v.questions.length&&['exam','study','practical'].includes(v.mode)?v:null}catch{return null}};
+const readSession=()=>{try{const v=JSON.parse(localStorage.getItem(SESSION_KEY)||'null');return v&&v.version===2&&Array.isArray(v.questions)&&(v.mode==='practical'||v.questions.length>0)&&['exam','study','practical'].includes(v.mode)?v:null}catch{return null}};
 const clearSession=()=>{try{localStorage.removeItem(SESSION_KEY)}catch{}};
 const persistSession=()=>{if(finished||!['exam','study','practical'].includes(mode))return;try{localStorage.setItem(SESSION_KEY,JSON.stringify({version:2,mode,scope,index,answers,questions:mode==='practical'?[]:pool,started,deadline,practical,updatedAt:Date.now()}))}catch{}};
 const sessionLabel=v=>v.mode==='exam'?'Simulacro teórico':v.mode==='practical'?'Simulacro práctico':'Estudio del núcleo '+v.scope;
