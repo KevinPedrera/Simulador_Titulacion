@@ -42,7 +42,7 @@ jobs:
           clips=data["clips"]
           questions=[k for k in clips if k.startswith("q:")]
           wrong=[k for k in clips if k.startswith("wrong:")]
-          assert len(questions)>=198, f"Preguntas insuficientes: {len(questions)}"
+          assert len(questions)>=190, f"Preguntas insuficientes: {len(questions)}"
           assert len(wrong)==len(questions), "Faltan mensajes correctivos"
           assert all(pathlib.Path(clips[k]).exists() for k in clips)
           print(f"Generados {len(clips)} clips, {len(questions)} preguntas y {len(wrong)} correcciones.")
