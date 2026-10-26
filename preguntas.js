@@ -2101,6 +2101,366 @@ window.PREGUNTAS = [
   },
   {
     "type": "choice",
+    "id": "N3-P3-Q1",
+    "nucleus": 3,
+    "partial": 3,
+    "number": 1,
+    "question": "¿Qué es Firebase en el contexto del desarrollo de aplicaciones móviles?",
+    "options": [
+      "Un lenguaje de programación para crear interfaces gráficas",
+      "Un editor de código especializado para React Native",
+      "Un framework exclusivo para el desarrollo de aplicaciones web",
+      "Una plataforma que ofrece servicios backend como bases de datos, autenticación y almacenamiento"
+    ],
+    "correct": 3,
+    "answer": "Una plataforma que ofrece servicios backend como bases de datos, autenticación y almacenamiento",
+    "source": "NUCLEO 3 PRUEBA 3.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P3-Q2",
+    "nucleus": 3,
+    "partial": 3,
+    "number": 2,
+    "question": "¿Qué diferencia principal existe entre Firebase Realtime Database y Firestore?",
+    "options": [
+      "Firestore no permite sincronización en tiempo real",
+      "Firestore ofrece una estructura más flexible con colecciones y documentos, y consultas más avanzadas",
+      "Realtime Database usa SQL y Firestore usa NoSQL",
+      "Realtime Database es más costoso que Firestore en todos los casos"
+    ],
+    "correct": 1,
+    "answer": "Firestore ofrece una estructura más flexible con colecciones y documentos, y consultas más avanzadas",
+    "source": "NUCLEO 3 PRUEBA 3.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P3-Q3",
+    "nucleus": 3,
+    "partial": 3,
+    "number": 3,
+    "question": "¿Qué servicio de Firebase permite gestionar el registro e inicio de sesión de usuarios?",
+    "options": [
+      "Firebase Cloud Functions",
+      "Firebase Analytics",
+      "Firebase Cloud Storage",
+      "Firebase Authentication"
+    ],
+    "correct": 3,
+    "answer": "Firebase Authentication",
+    "source": "NUCLEO 3 PRUEBA 3.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P3-Q4",
+    "nucleus": 3,
+    "partial": 3,
+    "number": 4,
+    "question": "¿Qué servicio de Firebase permite almacenar archivos como imágenes y videos en la nube?",
+    "options": [
+      "Firebase Cloud Storage",
+      "Firebase Cloud Messaging",
+      "Firebase Realtime Database",
+      "Firebase Authentication"
+    ],
+    "correct": 0,
+    "answer": "Firebase Cloud Storage",
+    "source": "NUCLEO 3 PRUEBA 3.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P3-Q5",
+    "nucleus": 3,
+    "partial": 3,
+    "number": 5,
+    "question": "¿Qué se requiere para integrar Firebase en una aplicación de React Native o Flutter?",
+    "options": [
+      "Crear un proyecto en Firebase Console y obtener las credenciales necesarias",
+      "Utilizar exclusivamente el lenguaje Java",
+      "Contratar un servidor dedicado externo",
+      "Únicamente instalar el editor de código"
+    ],
+    "correct": 0,
+    "answer": "Crear un proyecto en Firebase Console y obtener las credenciales necesarias",
+    "source": "NUCLEO 3 PRUEBA 3.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P3-Q6",
+    "nucleus": 3,
+    "partial": 3,
+    "number": 6,
+    "question": "¿Qué característica principal tiene la base de datos en tiempo real de Firebase?",
+    "options": [
+      "Requiere reiniciar la aplicación para reflejar cambios en los datos",
+      "Funciona únicamente con conexión offline",
+      "Almacena datos exclusivamente en formato XML",
+      "Sincroniza instantáneamente los datos entre todos los clientes conectados"
+    ],
+    "correct": 3,
+    "answer": "Sincroniza instantáneamente los datos entre todos los clientes conectados",
+    "source": "NUCLEO 3 PRUEBA 3.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P3-Q7",
+    "nucleus": 3,
+    "partial": 3,
+    "number": 7,
+    "question": "¿En qué formato almacena los datos Firebase Realtime Database?",
+    "options": [
+      "TXT plano",
+      "XML",
+      "CSV",
+      "JSON"
+    ],
+    "correct": 3,
+    "answer": "JSON",
+    "source": "NUCLEO 3 PRUEBA 3.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P3-Q8",
+    "nucleus": 3,
+    "partial": 3,
+    "number": 8,
+    "question": "¿Qué ventaja ofrece Firebase para el desarrollo de aplicaciones móviles?",
+    "options": [
+      "Proporciona SDKs y documentación clara para una integración sencilla",
+      "Solo funciona con aplicaciones nativas de Android",
+      "Requiere configuración compleja de servidores propios",
+      "No permite escalabilidad en proyectos grandes"
+    ],
+    "correct": 0,
+    "answer": "Proporciona SDKs y documentación clara para una integración sencilla",
+    "source": "NUCLEO 3 PRUEBA 3.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P3-Q9",
+    "nucleus": 3,
+    "partial": 3,
+    "number": 9,
+    "question": "¿Qué herramienta se utiliza para configurar y administrar los servicios de Firebase?",
+    "options": [
+      "Android Studio",
+      "Postman",
+      "GitHub Desktop",
+      "Firebase Console"
+    ],
+    "correct": 3,
+    "answer": "Firebase Console",
+    "source": "NUCLEO 3 PRUEBA 3.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P3-Q10",
+    "nucleus": 3,
+    "partial": 3,
+    "number": 10,
+    "question": "¿Qué ocurre cuando se modifica un dato en Firebase Realtime Database?",
+    "options": [
+      "Los cambios solo se aplican después de reiniciar la aplicación",
+      "Se requiere una solicitud manual para actualizar los datos en los clientes",
+      "El cambio se refleja automáticamente en todas las aplicaciones conectadas que observan ese dato",
+      "El cambio se guarda localmente hasta que el usuario lo confirma"
+    ],
+    "correct": 2,
+    "answer": "El cambio se refleja automáticamente en todas las aplicaciones conectadas que observan ese dato",
+    "source": "NUCLEO 3 PRUEBA 3.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P4-Q1",
+    "nucleus": 3,
+    "partial": 4,
+    "number": 1,
+    "question": "¿Qué técnica utiliza Firebase para almacenar las contraseñas de los usuarios de forma segura?",
+    "options": [
+      "Compresión de datos",
+      "Codificación Base64",
+      "Cifrado de contraseñas",
+      "Almacenamiento en texto plano"
+    ],
+    "correct": 2,
+    "answer": "Cifrado de contraseñas",
+    "source": "NUCLEO 3 PRUEBA 4.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P4-Q2",
+    "nucleus": 3,
+    "partial": 4,
+    "number": 2,
+    "question": "¿Qué acción debe realizar un usuario para cerrar su sesión de manera segura en la aplicación?",
+    "options": [
+      "Cerrar la sesión explícitamente",
+      "Eliminar la aplicación",
+      "Reiniciar el dispositivo",
+      "Cambiar la contraseña"
+    ],
+    "correct": 0,
+    "answer": "Cerrar la sesión explícitamente",
+    "source": "NUCLEO 3 PRUEBA 4.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P4-Q3",
+    "nucleus": 3,
+    "partial": 4,
+    "number": 3,
+    "question": "¿Qué es el proceso mediante el cual una aplicación verifica la identidad de un usuario antes de otorgarle acceso?",
+    "options": [
+      "Encriptación",
+      "Autenticación",
+      "Autorización",
+      "Validación"
+    ],
+    "correct": 1,
+    "answer": "Autenticación",
+    "source": "NUCLEO 3 PRUEBA 4.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P4-Q4",
+    "nucleus": 3,
+    "partial": 4,
+    "number": 4,
+    "question": "¿Qué servicio de Firebase permite gestionar el inicio de sesión de usuarios de manera fácil y segura?",
+    "options": [
+      "Firebase Realtime Database",
+      "Firebase Cloud Functions",
+      "Firebase Cloud Storage",
+      "Firebase Authentication"
+    ],
+    "correct": 3,
+    "answer": "Firebase Authentication",
+    "source": "NUCLEO 3 PRUEBA 4.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P4-Q5",
+    "nucleus": 3,
+    "partial": 4,
+    "number": 5,
+    "question": "¿Qué herramienta se utiliza para configurar y obtener las credenciales necesarias para integrar la autenticación en Firebase?",
+    "options": [
+      "Postman",
+      "Android Studio",
+      "Visual Studio Code",
+      "Firebase Console"
+    ],
+    "correct": 3,
+    "answer": "Firebase Console",
+    "source": "NUCLEO 3 PRUEBA 4.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P4-Q6",
+    "nucleus": 3,
+    "partial": 4,
+    "number": 6,
+    "question": "¿Qué funcionalidad permite a un usuario mantener su sesión activa después de iniciar sesión?",
+    "options": [
+      "Registro de usuario",
+      "Gestión de sesiones",
+      "Recuperación de contraseña",
+      "Verificación de correo"
+    ],
+    "correct": 1,
+    "answer": "Gestión de sesiones",
+    "source": "NUCLEO 3 PRUEBA 4.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P4-Q7",
+    "nucleus": 3,
+    "partial": 4,
+    "number": 7,
+    "question": "¿Qué método de autenticación se implementa principalmente en el Taller 4?",
+    "options": [
+      "Autenticación por redes sociales",
+      "Correo electrónico y contraseña",
+      "Autenticación multifactor",
+      "Autenticación biométrica"
+    ],
+    "correct": 1,
+    "answer": "Correo electrónico y contraseña",
+    "source": "NUCLEO 3 PRUEBA 4.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P4-Q8",
+    "nucleus": 3,
+    "partial": 4,
+    "number": 8,
+    "question": "¿Qué tipo de autenticación requiere dos o más verificaciones para garantizar la identidad del usuario?",
+    "options": [
+      "Autenticación multifactor",
+      "Autenticación simple",
+      "Autenticación anónima",
+      "Autenticación por correo"
+    ],
+    "correct": 0,
+    "answer": "Autenticación multifactor",
+    "source": "NUCLEO 3 PRUEBA 4.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P4-Q9",
+    "nucleus": 3,
+    "partial": 4,
+    "number": 9,
+    "question": "¿Qué protocolo se utiliza para proteger los datos en tránsito durante el proceso de autenticación?",
+    "options": [
+      "HTTPS",
+      "HTTP",
+      "SMTP",
+      "FTP"
+    ],
+    "correct": 0,
+    "answer": "HTTPS",
+    "source": "NUCLEO 3 PRUEBA 4.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
+    "id": "N3-P4-Q10",
+    "nucleus": 3,
+    "partial": 4,
+    "number": 10,
+    "question": "¿Qué consideración de seguridad es fundamental al manejar contraseñas en una aplicación móvil?",
+    "options": [
+      "Compartir contraseñas entre usuarios",
+      "Mostrar la contraseña en pantalla",
+      "Validar y cifrar las contraseñas correctamente",
+      "Almacenar contraseñas en texto plano"
+    ],
+    "correct": 2,
+    "answer": "Validar y cifrar las contraseñas correctamente",
+    "source": "NUCLEO 3 PRUEBA 4.pdf",
+    "answerVerification": "Revisión técnica: guía de estudio núcleo 3 + documentación Firebase. Clave no visible en PDF de evaluación; no es clave oficial comprobada."
+  },
+  {
+    "type": "choice",
     "options": [
       "this.router.navigate(['/home'])",
       "router.go('/home')",
