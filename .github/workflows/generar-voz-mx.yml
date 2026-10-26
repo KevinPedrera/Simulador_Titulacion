@@ -1,0 +1,60 @@
+name: Generar voz mexicana local (Piper)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generar_voz_mx.py'
+      - '.github/workflows/generar-voz-mx.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  audios:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Preparar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Instalar FFmpeg y Piper
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --upgrade pip
+          python -m pip install piper-tts
+      - name: Generar clips de todas las preguntas
+        run: python scripts/generar_voz_mx.py
+      - name: Verificar generación
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          src=pathlib.Path("neural-audio-manifest.js").read_text(encoding="utf-8")
+          data=json.loads(src.split("=",1)[1].strip().rstrip(";"))
+          clips=data["clips"]
+          questions=[k for k in clips if k.startswith("q:")]
+          wrong=[k for k in clips if k.startswith("wrong:")]
+          assert len(questions)>=198, f"Preguntas insuficientes: {len(questions)}"
+          assert len(wrong)==len(questions), "Faltan mensajes correctivos"
+          assert all(pathlib.Path(clips[k]).exists() for k in clips)
+          print(f"Generados {len(clips)} clips, {len(questions)} preguntas y {len(wrong)} correcciones.")
+          PY
+      - name: Publicar audios MP3 en rama principal
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add neural-audio-manifest.js audio/es-MX/
+          if git diff --cached --quiet; then
+            echo "No hay clips nuevos."
+          else
+            git commit -m "Publicar audios mexicanos neuronales Piper para estudio guiado"
+            git push origin HEAD:main
+          fi
