@@ -8,6 +8,10 @@ on:
       - 'scripts/generar_voz_mx.py'
       - '.github/workflows/generar-voz-mx.yml'
 
+concurrency:
+  group: voz-mexicana-neuronal
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
