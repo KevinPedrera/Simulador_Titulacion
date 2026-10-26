@@ -1758,87 +1758,685 @@ window.PREGUNTAS = [
     "number": 10,
     "question": "¿Qué operador permite ordenar documentos dentro de una agregación?",
     "source": "NUCLEO 2 PRUEBA 4.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "Google Sheets o Excel",
+      "Adobe Photoshop o Illustrator",
+      "Microsoft Word o Google Docs",
+      "VS Code o Android Studio"
+    ],
+    "correct": 3,
+    "answer": "VS Code o Android Studio",
+    "id": "N3-P1-Q1",
+    "nucleus": 3,
+    "partial": 1,
+    "number": 1,
+    "question": "¿Qué herramientas se recomiendan como editores de código para el desarrollo?",
+    "source": "NUCLEO 3 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "Botones, formularios y listas",
+      "Solo imágenes estáticas",
+      "Exclusivamente colores de fondo",
+      "Únicamente textos planos"
+    ],
+    "correct": 0,
+    "answer": "Botones, formularios y listas",
+    "id": "N3-P1-Q2",
+    "nucleus": 3,
+    "partial": 1,
+    "number": 2,
+    "question": "¿Qué elementos de la interfaz representan los componentes en una aplicación?",
+    "source": "NUCLEO 3 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "La eliminación de las props heredadas",
+      "La cierre automático de la aplicación",
+      "La conversión del componente a lenguaje nativo",
+      "La re-renderización del componente para reflejar los cambios"
+    ],
+    "correct": 3,
+    "answer": "La re-renderización del componente para reflejar los cambios",
+    "id": "N3-P1-Q3",
+    "nucleus": 3,
+    "partial": 1,
+    "number": 3,
+    "question": "¿Qué efecto provocan los cambios en el estado de un componente?",
+    "source": "NUCLEO 3 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "Porque son exclusivos para iOS",
+      "Por su simplicidad y eficiencia",
+      "Porque requieren siempre el uso de clases",
+      "Por su complejidad y robustez"
+    ],
+    "correct": 1,
+    "answer": "Por su simplicidad y eficiencia",
+    "id": "N3-P1-Q4",
+    "nucleus": 3,
+    "partial": 1,
+    "number": 4,
+    "question": "¿Por qué se utilizan comúnmente los componentes funcionales?",
+    "source": "NUCLEO 3 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "Comprender y cambiar los estados en el dispositivo móvil",
+      "Compilar la aplicación para diferentes plataformas automáticamente",
+      "Diseñar la interfaz gráfica sin escribir código",
+      "Conectar automáticamente con cualquier API externa"
+    ],
+    "correct": 0,
+    "answer": "Comprender y cambiar los estados en el dispositivo móvil",
+    "id": "N3-P1-Q5",
+    "nucleus": 3,
+    "partial": 1,
+    "number": 5,
+    "question": "¿Qué funcionalidad principal permiten los Hooks en React Native?",
+    "source": "NUCLEO 3 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "Animaciones SVG",
+      "Modales",
+      "Realidad Aumentada",
+      "Gráficos 3D"
+    ],
+    "correct": 1,
+    "answer": "Modales",
+    "id": "N3-P1-Q6",
+    "nucleus": 3,
+    "partial": 1,
+    "number": 6,
+    "question": "¿Qué elemento de interfaz se menciona junto a las imágenes en la implementación práctica?",
+    "source": "NUCLEO 3 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "Carousel y Slider",
+      "Drawer y SideBar",
+      "Stack y BottomTab",
+      "Modal y Popup"
+    ],
+    "correct": 2,
+    "answer": "Stack y BottomTab",
+    "id": "N3-P1-Q7",
+    "nucleus": 3,
+    "partial": 1,
+    "number": 7,
+    "question": "¿Qué sistemas de navegación se mencionan para organizar la estructura de la aplicación?",
+    "source": "NUCLEO 3 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "id": "N3-P1-Q8",
+    "nucleus": 3,
+    "partial": 1,
+    "number": 8,
+    "question": "¿Cuál es la característica distintiva de los componentes de presentación?",
+    "options": [
+      "Se encargan únicamente de la visualización y reciben información mediante props",
+      "Manejan la autenticación y autorización de usuarios",
+      "Se conectan directamente con bases de datos en tiempo real",
+      "Gestionan la lógica de negocio y conexión a APIs"
+    ],
+    "correct": 0,
+    "answer": "Se encargan únicamente de la visualización y reciben información mediante props",
+    "source": "NUCLEO 3 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "Del componente hijo",
+      "De la base de datos local",
+      "Del sistema operativo",
+      "Del componente padre"
+    ],
+    "correct": 3,
+    "answer": "Del componente padre",
+    "id": "N3-P1-Q9",
+    "nucleus": 3,
+    "partial": 1,
+    "number": 9,
+    "question": "¿De qué componente reciben información las props principalmente?",
+    "source": "NUCLEO 3 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "C",
+      "Python y XML",
+      "Java y Kotlin",
+      "JavaScript y JSX"
+    ],
+    "correct": 3,
+    "answer": "JavaScript y JSX",
+    "id": "N3-P1-Q10",
+    "nucleus": 3,
+    "partial": 1,
+    "number": 10,
+    "question": "¿Qué lenguajes se utilizan principalmente para crear componentes en React Native?",
+    "source": "NUCLEO 3 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "id": "N3-P2-Q1",
+    "nucleus": 3,
+    "partial": 2,
+    "number": 1,
+    "question": "¿Qué característica define principalmente a las APIs RESTful?",
+    "options": [
+      "Solo funcionan con aplicaciones nativas desarrolladas para Android",
+      "Utilizan exclusivamente XML para la transmisión de datos",
+      "Requieren conexión constante sin posibilidad de almacenamiento en caché",
+      "Utilizan métodos HTTP estándar y acceden a recursos mediante URLs únicas"
+    ],
+    "correct": 3,
+    "answer": "Utilizan métodos HTTP estándar y acceden a recursos mediante URLs únicas",
+    "source": "NUCLEO 3 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "FlatList",
+      "DataGrid",
+      "ScrollView",
+      "ListView"
+    ],
+    "correct": 0,
+    "answer": "FlatList",
+    "id": "N3-P2-Q2",
+    "nucleus": 3,
+    "partial": 2,
+    "number": 2,
+    "question": "¿Qué componente se menciona para mostrar listas de datos obtenidos de una API de manera eficiente?",
+    "source": "NUCLEO 3 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "Un protocolo HTTP",
+      "Una API",
+      "Un formato JSON",
+      "Un SDK"
+    ],
+    "correct": 1,
+    "answer": "Una API",
+    "id": "N3-P2-Q3",
+    "nucleus": 3,
+    "partial": 2,
+    "number": 3,
+    "question": "¿Qué es un conjunto de reglas que permiten que una aplicación se comunique con otro servicio?",
+    "source": "NUCLEO 3 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "Google Maps API y YouTube Data API",
+      "OpenWeather y NewsAPI",
+      "Twitter API y Facebook Graph API",
+      "Stripe API y PayPal API"
+    ],
+    "correct": 1,
+    "answer": "OpenWeather y NewsAPI",
+    "id": "N3-P2-Q4",
+    "nucleus": 3,
+    "partial": 2,
+    "number": 4,
+    "question": "¿Qué APIs públicas se mencionan como ejemplo práctico para consumir datos en el taller?",
+    "source": "NUCLEO 3 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "XML exclusivamente",
+      "CSV",
+      "TXT plano",
+      "JSON"
+    ],
+    "correct": 3,
+    "answer": "JSON",
+    "id": "N3-P2-Q5",
+    "nucleus": 3,
+    "partial": 2,
+    "number": 5,
+    "question": "¿Qué formato de datos es comúnmente utilizado por las APIs para intercambiar información?",
+    "source": "NUCLEO 3 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "Docker Hub",
+      "Postman",
+      "Firebase Console",
+      "GitHub Desktop"
+    ],
+    "correct": 1,
+    "answer": "Postman",
+    "id": "N3-P2-Q6",
+    "nucleus": 3,
+    "partial": 2,
+    "number": 6,
+    "question": "¿Qué herramienta se recomienda para probar APIs y visualizar respuestas en formato JSON?",
+    "source": "NUCLEO 3 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "DELETE",
+      "POST",
+      "GET",
+      "PUT"
+    ],
+    "correct": 2,
+    "answer": "GET",
+    "id": "N3-P2-Q7",
+    "nucleus": 3,
+    "partial": 2,
+    "number": 7,
+    "question": "¿Qué método HTTP se utiliza específicamente para solicitar datos desde un servidor?",
+    "source": "NUCLEO 3 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "POST",
+      "FETCH",
+      "REMOVE",
+      "GET"
+    ],
+    "correct": 0,
+    "answer": "POST",
+    "id": "N3-P2-Q8",
+    "nucleus": 3,
+    "partial": 2,
+    "number": 8,
+    "question": "¿Qué método HTTP se emplea para enviar nuevos datos al servidor para su procesamiento?",
+    "source": "NUCLEO 3 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "TCP",
+      "HTTP",
+      "FTP",
+      "SMTP"
+    ],
+    "correct": 1,
+    "answer": "HTTP",
+    "id": "N3-P2-Q9",
+    "nucleus": 3,
+    "partial": 2,
+    "number": 9,
+    "question": "¿Qué protocolo se utiliza para la transferencia de datos entre cliente y servidor en la web?",
+    "source": "NUCLEO 3 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "fetch",
+      "http-client exclusivo de terceros",
+      "request-native especializado",
+      "axios como única opción disponible"
+    ],
+    "correct": 0,
+    "answer": "fetch",
+    "id": "N3-P2-Q10",
+    "nucleus": 3,
+    "partial": 2,
+    "number": 10,
+    "question": "¿Qué método o biblioteca se utiliza en React Native para realizar solicitudes HTTP?",
+    "source": "NUCLEO 3 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "this.router.navigate(['/home'])",
+      "router.go('/home')",
+      "navigate('/home')",
+      "this.route.to('/home')"
+    ],
+    "correct": 0,
+    "answer": "this.router.navigate(['/home'])",
+    "id": "N4-P1-Q1",
+    "nucleus": 4,
+    "partial": 1,
+    "number": 1,
+    "question": "¿Cómo puedes redirigir de manera programática a otra ruta?",
+    "source": "NUCLEO 4 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "Solo puede ser usado en rutas hijas",
+      "Solo funciona con Angular Material",
+      "Se utiliza únicamente para servicios HTTP",
+      "No necesita ser declarado en un módulo"
+    ],
+    "correct": 3,
+    "answer": "No necesita ser declarado en un módulo",
+    "id": "N4-P1-Q2",
+    "nucleus": 4,
+    "partial": 1,
+    "number": 2,
+    "question": "¿Cuál es la principal característica de un componente standalone?",
+    "source": "NUCLEO 4 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "Enlaza directamente un evento del DOM",
+      "Permite crear rutas dinámicas",
+      "Sirve para importar módulos",
+      "Inserta el valor de una variable en la vista HTML"
+    ],
+    "correct": 3,
+    "answer": "Inserta el valor de una variable en la vista HTML",
+    "id": "N4-P1-Q3",
+    "nucleus": 4,
+    "partial": 1,
+    "number": 3,
+    "question": "¿Qué es la interpolación en Angular?",
+    "source": "NUCLEO 4 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "app-routing.module.ts",
+      "main.ts",
+      "router.config.ts",
+      "app.component.ts"
+    ],
+    "correct": 0,
+    "answer": "app-routing.module.ts",
+    "id": "N4-P1-Q4",
+    "nucleus": 4,
+    "partial": 1,
+    "number": 4,
+    "question": "¿En qué archivo comúnmente defines las rutas de una aplicación Angular?",
+    "source": "NUCLEO 4 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "{ path: 'home', standalone: HomeComponent }",
+      "{ route: 'home', component: HomeComponent }",
+      "{ path: 'home', view: HomeComponent }",
+      "{ path: 'home', component: HomeComponent }"
+    ],
+    "correct": 3,
+    "answer": "{ path: 'home', component: HomeComponent }",
+    "id": "N4-P1-Q5",
+    "nucleus": 4,
+    "partial": 1,
+    "number": 5,
+    "question": "¿Cuál es la forma correcta de definir una ruta básica?",
+    "source": "NUCLEO 4 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "CommonModule",
+      "FormsModule",
+      "RouterModule",
+      "HttpClientModule"
+    ],
+    "correct": 2,
+    "answer": "RouterModule",
+    "id": "N4-P1-Q6",
+    "nucleus": 4,
+    "partial": 1,
+    "number": 6,
+    "question": "¿Qué módulo de Angular es necesario para configurar rutas?",
+    "source": "NUCLEO 4 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "id": "N4-P1-Q7",
+    "nucleus": 4,
+    "partial": 1,
+    "number": 7,
+    "question": "¿Cuál es la función principal de event binding en Angular?",
+    "options": [
+      "Escuchar y manejar eventos del DOM en la lógica del componente",
+      "Establecer rutas dinámicas",
+      "Importar servicios en el componente",
+      "Definir el valor inicial de un input"
+    ],
+    "correct": 0,
+    "answer": "Escuchar y manejar eventos del DOM en la lógica del componente",
+    "source": "NUCLEO 4 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "{{ click: doSomething() }}",
+      "click=\"doSomething()\"",
+      "click: \"doSomething()\"",
+      "(click)=\"doSomething()\""
+    ],
+    "correct": 3,
+    "answer": "(click)=\"doSomething()\"",
+    "id": "N4-P1-Q8",
+    "nucleus": 4,
+    "partial": 1,
+    "number": 8,
+    "question": "¿Cómo se implementa correctamente un event binding en Angular?",
+    "source": "NUCLEO 4 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "singleton: true",
+      "modular: false",
+      "independent: true",
+      "standalone: true"
+    ],
+    "correct": 3,
+    "answer": "standalone: true",
+    "id": "N4-P1-Q9",
+    "nucleus": 4,
+    "partial": 1,
+    "number": 9,
+    "question": "¿Qué atributo es necesario en el decorador @Component para definir un componente standalone?",
+    "source": "NUCLEO 4 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "[[ myVar ]]",
+      "{{ myVar }}",
+      "({{ myVar }})",
+      "${{ myVar }}"
+    ],
+    "correct": 1,
+    "answer": "{{ myVar }}",
+    "id": "N4-P1-Q10",
+    "nucleus": 4,
+    "partial": 1,
+    "number": 10,
+    "question": "¿Cuál es la sintaxis correcta de interpolación en Angular?",
+    "source": "NUCLEO 4 PRUEBA 1.pdf"
+  },
+  {
+    "type": "choice",
+    "id": "N4-P2-Q1",
+    "nucleus": 4,
+    "partial": 2,
+    "number": 1,
+    "question": "¿Qué es un componente en Angular?",
+    "options": [
+      "Un servicio para manejar datos.",
+      "Un archivo de configuración para rutas.",
+      "Una función que maneja la lógica de negocio.",
+      "Una clase decorada con @Component que controla una parte de la interfaz de usuario."
+    ],
+    "correct": 3,
+    "answer": "Una clase decorada con @Component que controla una parte de la interfaz de usuario.",
+    "source": "NUCLEO 4 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "id": "N4-P2-Q2",
+    "nucleus": 4,
+    "partial": 2,
+    "number": 2,
+    "question": "¿Qué es Firebase en el contexto de Angular?",
+    "options": [
+      "Un servicio de backend que proporciona autenticación, base de datos y almacenamiento.",
+      "Una plataforma de desarrollo de aplicaciones móviles.",
+      "Un framework para crear componentes.",
+      "Una librería para manejar formularios."
+    ],
+    "correct": 0,
+    "answer": "Un servicio de backend que proporciona autenticación, base de datos y almacenamiento.",
+    "source": "NUCLEO 4 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "addDoc()",
+      "getDocs()",
+      "collectionData()",
+      "docData()"
+    ],
+    "correct": 3,
+    "answer": "docData()",
+    "id": "N4-P2-Q3",
+    "nucleus": 4,
+    "partial": 2,
+    "number": 3,
+    "question": "¿Qué método se utiliza para obtener un documento específico de Firestore?",
+    "source": "NUCLEO 4 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "app.routes.ts.",
+      "app.providers.ts.",
+      "app.config.ts.",
+      "app.component.ts."
+    ],
+    "correct": 2,
+    "answer": "app.config.ts.",
+    "id": "N4-P2-Q4",
+    "nucleus": 4,
+    "partial": 2,
+    "number": 4,
+    "question": "¿Dónde se configuran los proveedores en Angular?",
+    "source": "NUCLEO 4 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "ngForm",
+      "formControl",
+      "ngModel",
+      "formGroup"
+    ],
+    "correct": 3,
+    "answer": "formGroup",
+    "id": "N4-P2-Q5",
+    "nucleus": 4,
+    "partial": 2,
+    "number": 5,
+    "question": "¿Qué directiva se utiliza para manejar formularios reactivos en Angular?",
+    "source": "NUCLEO 4 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "id": "N4-P2-Q6",
+    "nucleus": 4,
+    "partial": 2,
+    "number": 6,
+    "question": "¿Cuál es el propósito de un servicio en Angular?",
+    "options": [
+      "Definir estilos CSS para los componentes.",
+      "Crear plantillas HTML.",
+      "Gestionar la lógica de negocio y compartir datos entre componentes.",
+      "Configurar las dependencias del proyecto."
+    ],
+    "correct": 2,
+    "answer": "Gestionar la lógica de negocio y compartir datos entre componentes.",
+    "source": "NUCLEO 4 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "CanDeactivate",
+      "CanLoad",
+      "CanActivate",
+      "CanMatch"
+    ],
+    "correct": 0,
+    "answer": "CanDeactivate",
+    "id": "N4-P2-Q7",
+    "nucleus": 4,
+    "partial": 2,
+    "number": 7,
+    "question": "¿Qué tipo de guardián se utiliza para evitar que un usuario abandone una página sin guardar cambios?",
+    "source": "NUCLEO 4 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "app.routes.ts",
+      "app.route-service.ts",
+      "app.module.ts",
+      "app.config.ts"
+    ],
+    "correct": 0,
+    "answer": "app.routes.ts",
+    "id": "N4-P2-Q8",
+    "nucleus": 4,
+    "partial": 2,
+    "number": 8,
+    "question": "¿Dónde se definen las rutas en angular?",
+    "source": "NUCLEO 4 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "signOut()",
+      "signInWithGoogle()",
+      "signInWithPopup()",
+      "signInWithEmailAndPassword()"
+    ],
+    "correct": 2,
+    "answer": "signInWithPopup()",
+    "id": "N4-P2-Q9",
+    "nucleus": 4,
+    "partial": 2,
+    "number": 9,
+    "question": "¿Qué método de Firebase se utiliza para autenticar un usuario con Google con Angular?",
+    "source": "NUCLEO 4 PRUEBA 2.pdf"
+  },
+  {
+    "type": "choice",
+    "options": [
+      "redirect()",
+      "navigateTo()",
+      "navigate()",
+      "goToRoute()"
+    ],
+    "correct": 2,
+    "answer": "navigate()",
+    "id": "N4-P2-Q10",
+    "nucleus": 4,
+    "partial": 2,
+    "number": 10,
+    "question": "¿Qué método se utiliza para navegar a una ruta programáticamente en Angular?",
+    "source": "NUCLEO 4 PRUEBA 2.pdf"
   }
-,
-  {"type":"choice","options":["Google Sheets o Excel","Adobe Photoshop o Illustrator","Microsoft Word o Google Docs","VS Code o Android Studio"],"correct":3,"answer":"VS Code o Android Studio","id":"N3-P1-Q1","nucleus":3,"partial":1,"number":1,"question":"¿Qué herramientas se recomiendan como editores de código para el desarrollo?","source":"NUCLEO 3 PRUEBA 1.pdf"},
-  {"type":"choice","options":["Botones, formularios y listas","Solo imágenes estáticas","Exclusivamente colores de fondo","Únicamente textos planos"],"correct":0,"answer":"Botones, formularios y listas","id":"N3-P1-Q2","nucleus":3,"partial":1,"number":2,"question":"¿Qué elementos de la interfaz representan los componentes en una aplicación?","source":"NUCLEO 3 PRUEBA 1.pdf"},
-  {"type":"choice","options":["La eliminación de las props heredadas","La cierre automático de la aplicación","La conversión del componente a lenguaje nativo","La re-renderización del componente para reflejar los cambios"],"correct":3,"answer":"La re-renderización del componente para reflejar los cambios","id":"N3-P1-Q3","nucleus":3,"partial":1,"number":3,"question":"¿Qué efecto provocan los cambios en el estado de un componente?","source":"NUCLEO 3 PRUEBA 1.pdf"},
-  {"type":"choice","options":["Porque son exclusivos para iOS","Por su simplicidad y eficiencia","Porque requieren siempre el uso de clases","Por su complejidad y robustez"],"correct":1,"answer":"Por su simplicidad y eficiencia","id":"N3-P1-Q4","nucleus":3,"partial":1,"number":4,"question":"¿Por qué se utilizan comúnmente los componentes funcionales?","source":"NUCLEO 3 PRUEBA 1.pdf"},
-  {"type":"choice","options":["Comprender y cambiar los estados en el dispositivo móvil","Compilar la aplicación para diferentes plataformas automáticamente","Diseñar la interfaz gráfica sin escribir código","Conectar automáticamente con cualquier API externa"],"correct":0,"answer":"Comprender y cambiar los estados en el dispositivo móvil","id":"N3-P1-Q5","nucleus":3,"partial":1,"number":5,"question":"¿Qué funcionalidad principal permiten los Hooks en React Native?","source":"NUCLEO 3 PRUEBA 1.pdf"},
-  {"type":"choice","options":["Animaciones SVG","Modales","Realidad Aumentada","Gráficos 3D"],"correct":1,"answer":"Modales","id":"N3-P1-Q6","nucleus":3,"partial":1,"number":6,"question":"¿Qué elemento de interfaz se menciona junto a las imágenes en la implementación práctica?","source":"NUCLEO 3 PRUEBA 1.pdf"},
-  {"type":"choice","options":["Carousel y Slider","Drawer y SideBar","Stack y BottomTab","Modal y Popup"],"correct":2,"answer":"Stack y BottomTab","id":"N3-P1-Q7","nucleus":3,"partial":1,"number":7,"question":"¿Qué sistemas de navegación se mencionan para organizar la estructura de la aplicación?","source":"NUCLEO 3 PRUEBA 1.pdf"},
-  {"type":"choice","options":["Del componente hijo","De la base de datos local","Del sistema operativo","Del componente padre"],"correct":3,"answer":"Del componente padre","id":"N3-P1-Q9","nucleus":3,"partial":1,"number":9,"question":"¿De qué componente reciben información las props principalmente?","source":"NUCLEO 3 PRUEBA 1.pdf"},
-  {"type":"choice","options":["C","Python y XML","Java y Kotlin","JavaScript y JSX"],"correct":3,"answer":"JavaScript y JSX","id":"N3-P1-Q10","nucleus":3,"partial":1,"number":10,"question":"¿Qué lenguajes se utilizan principalmente para crear componentes en React Native?","source":"NUCLEO 3 PRUEBA 1.pdf"},
-  {"type":"choice","options":["FlatList","DataGrid","ScrollView","ListView"],"correct":0,"answer":"FlatList","id":"N3-P2-Q2","nucleus":3,"partial":2,"number":2,"question":"¿Qué componente se menciona para mostrar listas de datos obtenidos de una API de manera eficiente?","source":"NUCLEO 3 PRUEBA 2.pdf"},
-  {"type":"choice","options":["Un protocolo HTTP","Una API","Un formato JSON","Un SDK"],"correct":1,"answer":"Una API","id":"N3-P2-Q3","nucleus":3,"partial":2,"number":3,"question":"¿Qué es un conjunto de reglas que permiten que una aplicación se comunique con otro servicio?","source":"NUCLEO 3 PRUEBA 2.pdf"},
-  {"type":"choice","options":["Google Maps API y YouTube Data API","OpenWeather y NewsAPI","Twitter API y Facebook Graph API","Stripe API y PayPal API"],"correct":1,"answer":"OpenWeather y NewsAPI","id":"N3-P2-Q4","nucleus":3,"partial":2,"number":4,"question":"¿Qué APIs públicas se mencionan como ejemplo práctico para consumir datos en el taller?","source":"NUCLEO 3 PRUEBA 2.pdf"},
-  {"type":"choice","options":["XML exclusivamente","CSV","TXT plano","JSON"],"correct":3,"answer":"JSON","id":"N3-P2-Q5","nucleus":3,"partial":2,"number":5,"question":"¿Qué formato de datos es comúnmente utilizado por las APIs para intercambiar información?","source":"NUCLEO 3 PRUEBA 2.pdf"},
-  {"type":"choice","options":["Docker Hub","Postman","Firebase Console","GitHub Desktop"],"correct":1,"answer":"Postman","id":"N3-P2-Q6","nucleus":3,"partial":2,"number":6,"question":"¿Qué herramienta se recomienda para probar APIs y visualizar respuestas en formato JSON?","source":"NUCLEO 3 PRUEBA 2.pdf"},
-  {"type":"choice","options":["DELETE","POST","GET","PUT"],"correct":2,"answer":"GET","id":"N3-P2-Q7","nucleus":3,"partial":2,"number":7,"question":"¿Qué método HTTP se utiliza específicamente para solicitar datos desde un servidor?","source":"NUCLEO 3 PRUEBA 2.pdf"},
-  {"type":"choice","options":["POST","FETCH","REMOVE","GET"],"correct":0,"answer":"POST","id":"N3-P2-Q8","nucleus":3,"partial":2,"number":8,"question":"¿Qué método HTTP se emplea para enviar nuevos datos al servidor para su procesamiento?","source":"NUCLEO 3 PRUEBA 2.pdf"},
-  {"type":"choice","options":["TCP","HTTP","FTP","SMTP"],"correct":1,"answer":"HTTP","id":"N3-P2-Q9","nucleus":3,"partial":2,"number":9,"question":"¿Qué protocolo se utiliza para la transferencia de datos entre cliente y servidor en la web?","source":"NUCLEO 3 PRUEBA 2.pdf"},
-  {"type":"choice","options":["fetch","http-client exclusivo de terceros","request-native especializado","axios como única opción disponible"],"correct":0,"answer":"fetch","id":"N3-P2-Q10","nucleus":3,"partial":2,"number":10,"question":"¿Qué método o biblioteca se utiliza en React Native para realizar solicitudes HTTP?","source":"NUCLEO 3 PRUEBA 2.pdf"},
-  {"type":"choice","options":["this.router.navigate(['/home'])","router.go('/home')","navigate('/home')","this.route.to('/home')"],"correct":0,"answer":"this.router.navigate(['/home'])","id":"N4-P1-Q1","nucleus":4,"partial":1,"number":1,"question":"¿Cómo puedes redirigir de manera programática a otra ruta?","source":"NUCLEO 4 PRUEBA 1.pdf"},
-  {"type":"choice","options":["Solo puede ser usado en rutas hijas","Solo funciona con Angular Material","Se utiliza únicamente para servicios HTTP","No necesita ser declarado en un módulo"],"correct":3,"answer":"No necesita ser declarado en un módulo","id":"N4-P1-Q2","nucleus":4,"partial":1,"number":2,"question":"¿Cuál es la principal característica de un componente standalone?","source":"NUCLEO 4 PRUEBA 1.pdf"},
-  {"type":"choice","options":["Enlaza directamente un evento del DOM","Permite crear rutas dinámicas","Sirve para importar módulos","Inserta el valor de una variable en la vista HTML"],"correct":3,"answer":"Inserta el valor de una variable en la vista HTML","id":"N4-P1-Q3","nucleus":4,"partial":1,"number":3,"question":"¿Qué es la interpolación en Angular?","source":"NUCLEO 4 PRUEBA 1.pdf"},
-  {"type":"choice","options":["app-routing.module.ts","main.ts","router.config.ts","app.component.ts"],"correct":0,"answer":"app-routing.module.ts","id":"N4-P1-Q4","nucleus":4,"partial":1,"number":4,"question":"¿En qué archivo comúnmente defines las rutas de una aplicación Angular?","source":"NUCLEO 4 PRUEBA 1.pdf"},
-  {"type":"choice","options":["{ path: 'home', standalone: HomeComponent }","{ route: 'home', component: HomeComponent }","{ path: 'home', view: HomeComponent }","{ path: 'home', component: HomeComponent }"],"correct":3,"answer":"{ path: 'home', component: HomeComponent }","id":"N4-P1-Q5","nucleus":4,"partial":1,"number":5,"question":"¿Cuál es la forma correcta de definir una ruta básica?","source":"NUCLEO 4 PRUEBA 1.pdf"},
-  {"type":"choice","options":["CommonModule","FormsModule","RouterModule","HttpClientModule"],"correct":2,"answer":"RouterModule","id":"N4-P1-Q6","nucleus":4,"partial":1,"number":6,"question":"¿Qué módulo de Angular es necesario para configurar rutas?","source":"NUCLEO 4 PRUEBA 1.pdf"},
-  {"type":"choice","options":["{{ click: doSomething() }}","click=\"doSomething()\"","click: \"doSomething()\"","(click)=\"doSomething()\""],"correct":3,"answer":"(click)=\"doSomething()\"","id":"N4-P1-Q8","nucleus":4,"partial":1,"number":8,"question":"¿Cómo se implementa correctamente un event binding en Angular?","source":"NUCLEO 4 PRUEBA 1.pdf"},
-  {"type":"choice","options":["singleton: true","modular: false","independent: true","standalone: true"],"correct":3,"answer":"standalone: true","id":"N4-P1-Q9","nucleus":4,"partial":1,"number":9,"question":"¿Qué atributo es necesario en el decorador @Component para definir un componente standalone?","source":"NUCLEO 4 PRUEBA 1.pdf"},
-  {"type":"choice","options":["[[ myVar ]]","{{ myVar }}","({{ myVar }})","${{ myVar }}"],"correct":1,"answer":"{{ myVar }}","id":"N4-P1-Q10","nucleus":4,"partial":1,"number":10,"question":"¿Cuál es la sintaxis correcta de interpolación en Angular?","source":"NUCLEO 4 PRUEBA 1.pdf"},
-  {"type":"choice","options":["addDoc()","getDocs()","collectionData()","docData()"],"correct":3,"answer":"docData()","id":"N4-P2-Q3","nucleus":4,"partial":2,"number":3,"question":"¿Qué método se utiliza para obtener un documento específico de Firestore?","source":"NUCLEO 4 PRUEBA 2.pdf"},
-  {"type":"choice","options":["app.routes.ts.","app.providers.ts.","app.config.ts.","app.component.ts."],"correct":2,"answer":"app.config.ts.","id":"N4-P2-Q4","nucleus":4,"partial":2,"number":4,"question":"¿Dónde se configuran los proveedores en Angular?","source":"NUCLEO 4 PRUEBA 2.pdf"},
-  {"type":"choice","options":["ngForm","formControl","ngModel","formGroup"],"correct":3,"answer":"formGroup","id":"N4-P2-Q5","nucleus":4,"partial":2,"number":5,"question":"¿Qué directiva se utiliza para manejar formularios reactivos en Angular?","source":"NUCLEO 4 PRUEBA 2.pdf"},
-  {"type":"choice","options":["CanDeactivate","CanLoad","CanActivate","CanMatch"],"correct":0,"answer":"CanDeactivate","id":"N4-P2-Q7","nucleus":4,"partial":2,"number":7,"question":"¿Qué tipo de guardián se utiliza para evitar que un usuario abandone una página sin guardar cambios?","source":"NUCLEO 4 PRUEBA 2.pdf"},
-  {"type":"choice","options":["app.routes.ts","app.route-service.ts","app.module.ts","app.config.ts"],"correct":0,"answer":"app.routes.ts","id":"N4-P2-Q8","nucleus":4,"partial":2,"number":8,"question":"¿Dónde se definen las rutas en angular?","source":"NUCLEO 4 PRUEBA 2.pdf"},
-  {"type":"choice","options":["signOut()","signInWithGoogle()","signInWithPopup()","signInWithEmailAndPassword()"],"correct":2,"answer":"signInWithPopup()","id":"N4-P2-Q9","nucleus":4,"partial":2,"number":9,"question":"¿Qué método de Firebase se utiliza para autenticar un usuario con Google con Angular?","source":"NUCLEO 4 PRUEBA 2.pdf"},
-  {"type":"choice","options":["redirect()","navigateTo()","navigate()","goToRoute()"],"correct":2,"answer":"navigate()","id":"N4-P2-Q10","nucleus":4,"partial":2,"number":10,"question":"¿Qué método se utiliza para navegar a una ruta programáticamente en Angular?","source":"NUCLEO 4 PRUEBA 2.pdf"}
-,
-  {"type":"choice","options":["React Native","MongoDB","PostgreSQL","Docker Compose"],"correct":0,"answer":"React Native","id":"N3-G5-Q1","nucleus":3,"partial":0,"number":1,"question":"¿Qué tecnología permite desarrollar interfaces móviles mediante componentes reutilizables?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Cloud Storage","Firebase Authentication","Hosting","Analytics"],"correct":1,"answer":"Firebase Authentication","id":"N3-G5-Q2","nucleus":3,"partial":0,"number":2,"question":"¿Qué servicio de Firebase permite autenticar usuarios con correo y contraseña?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Realtime Database","SQLite local","MySQL Server","Oracle"],"correct":0,"answer":"Realtime Database","id":"N3-G5-Q3","nucleus":3,"partial":0,"number":3,"question":"¿Qué base de datos de Firebase permite sincronización de datos en tiempo real?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["FTP","SMTP","HTTP/HTTPS","SSH"],"correct":2,"answer":"HTTP/HTTPS","id":"N3-G5-Q4","nucleus":3,"partial":0,"number":4,"question":"¿Qué protocolo suele utilizarse al consultar un servicio de clima mediante API REST?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["JSON","DOCX","MP3","EXE"],"correct":0,"answer":"JSON","id":"N3-G5-Q5","nucleus":3,"partial":0,"number":5,"question":"¿Qué formato de intercambio de datos suele devolver una API meteorológica?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Cambiar estilos CSS","Realizar solicitudes de red","Crear tablas SQL","Instalar paquetes"],"correct":1,"answer":"Realizar solicitudes de red","id":"N3-G5-Q6","nucleus":3,"partial":0,"number":6,"question":"¿Cuál es la función principal de una llamada fetch en JavaScript?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["El color de la interfaz","El UID del usuario","La versión de Node","El puerto USB"],"correct":1,"answer":"El UID del usuario","id":"N3-G5-Q7","nucleus":3,"partial":0,"number":7,"question":"¿Qué dato permite separar destinos guardados por usuario autenticado?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Ciudad","Contraseña","Número de tarjeta","Ruta del proyecto"],"correct":0,"answer":"Ciudad","id":"N3-G5-Q8","nucleus":3,"partial":0,"number":8,"question":"¿Qué campo es indispensable para consultar el clima de un destino por nombre?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["DELETE","GET","PATCH","CONNECT"],"correct":1,"answer":"GET","id":"N3-G5-Q9","nucleus":3,"partial":0,"number":9,"question":"¿Qué método HTTP se usa normalmente para consultar información de una API REST?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Actualizar el estado tras leer datos","Desactivar la autenticación","Eliminar el componente","Cerrar la aplicación"],"correct":0,"answer":"Actualizar el estado tras leer datos","id":"N3-G5-Q10","nucleus":3,"partial":0,"number":10,"question":"¿Qué acción permite que una lista refleje cambios en los destinos?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Duplicar lógica","Facilitar mantenimiento","Evitar toda validación","Impedir navegación"],"correct":1,"answer":"Facilitar mantenimiento","id":"N3-G5-Q11","nucleus":3,"partial":0,"number":11,"question":"¿Cuál es una ventaja de los componentes reutilizables?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Un mensaje de error comprensible","La contraseña del usuario","Una pantalla en blanco siempre","Un dato inventado"],"correct":0,"answer":"Un mensaje de error comprensible","id":"N3-G5-Q12","nucleus":3,"partial":0,"number":12,"question":"¿Qué información conviene mostrar al fallar una solicitud de clima?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Mantener acceso privado","Invalidar la sesión de usuario","Publicar datos personales","Borrar el proyecto"],"correct":1,"answer":"Invalidar la sesión de usuario","id":"N3-G5-Q13","nucleus":3,"partial":0,"number":13,"question":"¿Qué debe hacer una aplicación al cerrar sesión?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Identificar cada destino","Cambiar el idioma","Definir el tamaño de fuente","Ejecutar Android Studio"],"correct":0,"answer":"Identificar cada destino","id":"N3-G5-Q14","nucleus":3,"partial":0,"number":14,"question":"¿Para qué sirve una clave única en registros de destinos?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Formulario","Índice MongoDB","Imagen fija","Archivo APK"],"correct":0,"answer":"Formulario","id":"N3-G5-Q15","nucleus":3,"partial":0,"number":15,"question":"¿Qué elemento de interfaz permite ingresar ciudad y país?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Evitar entradas incompletas o inválidas","Desactivar Firebase","Ocultar errores de red","Duplicar usuarios"],"correct":0,"answer":"Evitar entradas incompletas o inválidas","id":"N3-G5-Q16","nucleus":3,"partial":0,"number":16,"question":"¿Cuál es el propósito de validar un formulario?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Datos privados de cada usuario","Colores del encabezado","Texto de botones públicos","Iconos del menú"],"correct":0,"answer":"Datos privados de cada usuario","id":"N3-G5-Q17","nucleus":3,"partial":0,"number":17,"question":"¿Qué información debe proteger Firebase mediante reglas de seguridad?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Elimina el registro seleccionado","Cierra Android Studio","Desinstala Expo","Reinicia el dispositivo"],"correct":0,"answer":"Elimina el registro seleccionado","id":"N3-G5-Q18","nucleus":3,"partial":0,"number":18,"question":"¿Qué hace la operación de eliminación de un destino?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Se adapta a diferentes tamaños de pantalla","Solo funciona sin internet","No utiliza componentes","Requiere teclado físico"],"correct":0,"answer":"Se adapta a diferentes tamaños de pantalla","id":"N3-G5-Q19","nucleus":3,"partial":0,"number":19,"question":"¿Qué significa que una aplicación sea responsive?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Proporciona información meteorológica dinámica","Sustituye la autenticación","Almacena contraseñas","Crea automáticamente las vistas"],"correct":0,"answer":"Proporciona información meteorológica dinámica","id":"N3-G5-Q20","nucleus":3,"partial":0,"number":20,"question":"¿Qué ventaja tiene una API externa de clima?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Integrar autenticación, destinos y clima","Crear solo una calculadora","Diseñar un logo sin funcionalidad","Instalar un sistema operativo"],"correct":0,"answer":"Integrar autenticación, destinos y clima","id":"N3-G5-Q21","nucleus":3,"partial":0,"number":21,"question":"¿Cuál es el objetivo del Taller 5 de aplicaciones móviles?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Realtime Database","Google Docs","Firebase Hosting únicamente","GitHub Issues"],"correct":0,"answer":"Realtime Database","id":"N3-G5-Q22","nucleus":3,"partial":0,"number":22,"question":"¿Qué servicio de Firebase almacena destinos y permite sincronización?","source":"Guía de estudio - nucleo3.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Angular","Flutter","Django","Laravel"],"correct":0,"answer":"Angular","id":"N4-G5-Q1","nucleus":4,"partial":0,"number":1,"question":"¿Qué framework utiliza el Taller 5 para construir el CMS web?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Firestore","SMTP","Git Bash","NPM Registry"],"correct":0,"answer":"Firestore","id":"N4-G5-Q2","nucleus":4,"partial":0,"number":2,"question":"¿Qué servicio almacena publicaciones del CMS planteado en el Taller 5?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Firebase Authentication","Google Fonts","GitHub Pages","Cloud CDN únicamente"],"correct":0,"answer":"Firebase Authentication","id":"N4-G5-Q3","nucleus":4,"partial":0,"number":3,"question":"¿Qué servicio gestiona el inicio de sesión en el CMS?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Create","Delete","Read","Logout"],"correct":0,"answer":"Create","id":"N4-G5-Q4","nucleus":4,"partial":0,"number":4,"question":"¿Qué operación permite crear una publicación nueva?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Update","Read","Login","Build"],"correct":0,"answer":"Update","id":"N4-G5-Q5","nucleus":4,"partial":0,"number":5,"question":"¿Qué operación permite modificar el contenido de una publicación existente?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Delete","Read","Compile","Navigate"],"correct":0,"answer":"Delete","id":"N4-G5-Q6","nucleus":4,"partial":0,"number":6,"question":"¿Qué operación elimina una publicación almacenada?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Ruta dinámica","Ruta sin componente","Ruta CSS","Ruta del sistema operativo"],"correct":0,"answer":"Ruta dinámica","id":"N4-G5-Q7","nucleus":4,"partial":0,"number":7,"question":"¿Qué tipo de ruta permite mostrar el detalle de una publicación por identificador?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["CanActivate","CanDeactivate","OnInit","NgFor"],"correct":0,"answer":"CanActivate","id":"N4-G5-Q8","nucleus":4,"partial":0,"number":8,"question":"¿Qué guard de Angular puede impedir acceder a administración sin autenticación?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["CanDeactivate","CanActivate","OnDestroy","RouterLink"],"correct":0,"answer":"CanDeactivate","id":"N4-G5-Q9","nucleus":4,"partial":0,"number":9,"question":"¿Qué guard se utiliza para controlar la salida de una vista con cambios pendientes?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Centralizar lógica y acceso a datos","Definir exclusivamente colores","Reemplazar el navegador","Compilar Java"],"correct":0,"answer":"Centralizar lógica y acceso a datos","id":"N4-G5-Q10","nucleus":4,"partial":0,"number":10,"question":"¿Qué responsabilidad suele tener un servicio Angular?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Compartir interfaz y comportamiento","Eliminar rutas","Desactivar Firestore","Duplicar HTML en cada vista"],"correct":0,"answer":"Compartir interfaz y comportamiento","id":"N4-G5-Q11","nucleus":4,"partial":0,"number":11,"question":"¿Para qué se utilizan componentes reutilizables en un CMS?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Lista de publicaciones","Panel de edición de administradores","Gestión de usuarios privilegiados","Configuración de roles privados"],"correct":0,"answer":"Lista de publicaciones","id":"N4-G5-Q12","nucleus":4,"partial":0,"number":12,"question":"¿Qué sección debe ser pública en el CMS del Taller 5?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Administración de publicaciones","Página pública de inicio","Listado público","Detalle público"],"correct":0,"answer":"Administración de publicaciones","id":"N4-G5-Q13","nucleus":4,"partial":0,"number":13,"question":"¿Qué sección debe protegerse mediante autenticación?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Router","HttpClient exclusivamente","Validators","FormArray"],"correct":0,"answer":"Router","id":"N4-G5-Q14","nucleus":4,"partial":0,"number":14,"question":"¿Qué herramienta de Angular permite navegar programáticamente?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Reactive Forms","RouterLink","CSS Grid","NgOptimizedImage"],"correct":0,"answer":"Reactive Forms","id":"N4-G5-Q15","nucleus":4,"partial":0,"number":15,"question":"¿Qué recurso de Angular facilita formularios con validación explícita?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["valid","pristine","untouched","disabled"],"correct":0,"answer":"valid","id":"N4-G5-Q16","nucleus":4,"partial":0,"number":16,"question":"¿Qué propiedad indica que un FormControl cumple sus validadores?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Validators.required","Validators.email","Validators.minLength(0)","Validators.nullValidator"],"correct":0,"answer":"Validators.required","id":"N4-G5-Q17","nucleus":4,"partial":0,"number":17,"question":"¿Qué validador exige que un campo tenga contenido?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["{{ variable }}","<? variable ?>","$[variable]","#{variable}"],"correct":0,"answer":"{{ variable }}","id":"N4-G5-Q18","nucleus":4,"partial":0,"number":18,"question":"¿Qué operador de plantilla Angular permite interpolar una variable?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Actualizar el listado de publicaciones","Eliminar el usuario","Cerrar sesión obligatoriamente","Desactivar rutas"],"correct":0,"answer":"Actualizar el listado de publicaciones","id":"N4-G5-Q19","nucleus":4,"partial":0,"number":19,"question":"¿Qué debe hacer el CMS tras crear una publicación en Firestore?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Su propiedad standalone","Un archivo PHP","Una base de datos SQL","Una etiqueta iframe"],"correct":0,"answer":"Su propiedad standalone","id":"N4-G5-Q20","nucleus":4,"partial":0,"number":20,"question":"¿Qué característica de un componente standalone evita declararlo en un NgModule?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Read","Delete","Update","Create"],"correct":0,"answer":"Read","id":"N4-G5-Q21","nucleus":4,"partial":0,"number":21,"question":"¿Qué operación consulta publicaciones existentes?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Acceso a funciones restringidas","Cambiar la conexión eléctrica","Eliminar validaciones","Hacer públicas las credenciales"],"correct":0,"answer":"Acceso a funciones restringidas","id":"N4-G5-Q22","nucleus":4,"partial":0,"number":22,"question":"¿Qué permite controlar un rol de administrador?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Reglas de seguridad de Firestore","Solo CSS","Un botón oculto","El título de la página"],"correct":0,"answer":"Reglas de seguridad de Firestore","id":"N4-G5-Q23","nucleus":4,"partial":0,"number":23,"question":"¿Qué mecanismo debe complementar los guards para proteger los datos de Firestore?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."},
-  {"type":"choice","options":["Integrar Angular, Firebase, rutas y CRUD en un CMS","Diseñar únicamente un banner","Crear una app de escritorio Java","Instalar MongoDB sin interfaz"],"correct":0,"answer":"Integrar Angular, Firebase, rutas y CRUD en un CMS","id":"N4-G5-Q24","nucleus":4,"partial":0,"number":24,"question":"¿Cuál es la finalidad principal del Taller 5 de aplicaciones web?","source":"Guía Núcleo Aplicaciones Web.pdf · Taller 5 / conceptos de la guía · pregunta de estudio elaborada","explanation":"Pregunta de práctica basada en los contenidos de la guía; no corresponde a una pregunta oficial de evaluación."}
 ];
