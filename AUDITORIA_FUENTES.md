@@ -40,6 +40,30 @@ En `N3-P4-Q1`, el PDF usa la alternativa «Cifrado de contraseñas». Es la **me
 
 Se excluyeron las 46 preguntas adicionales previamente elaboradas desde guías. La guía apoya la **verificación de respuestas**, pero no se utiliza como excusa para inventar enunciados de examen.
 
+## Ampliación del cuestionario con marco teórico de las guías (26 de octubre de 2026)
+
+**Importante:** los PDF de evaluaciones aportan 200 registros (199 preguntas distintas). Además se han incorporado **38 preguntas de práctica derivadas de definiciones reales de las cuatro guías**; estas últimas son formulaciones de estudio, no reproducciones literales de un examen. El simulador distingue cada una con `sourceType: "guide"`, nombre de guía, sección y enlace del documento.
+
+| Núcleo | Registros de evaluaciones | Preguntas derivadas de guía | Distintas mostrables |
+| --- | ---: | ---: | ---: |
+| 1 — Spring Boot y Java | 80 | 10 | 90 |
+| 2 — Bases de datos | 40 (39 distintas) | 10 | 49 |
+| 3 — Aplicaciones móviles | 40 | 8 | 48 |
+| 4 — Aplicaciones web | 40 | 10 | 50 |
+| **Total** | **200 (199 distintas)** | **38** | **237** |
+
+**Fuentes comprobadas:**
+- [N1, Integración de la Información](https://drive.google.com/file/d/19-ziLbT7mQMe8btlhcLDbtY_fE91GbqA/view): MVC, modelo/vista/controlador, Spring Boot, IoC, DI, Spring Data JPA, anotaciones y Thymeleaf.
+- [N2, Diseño y Gestión de Base de Datos](https://drive.google.com/file/d/1voY4FbhtrkEVHjhClYcSUMkyqZ35YByz/view): diseño conceptual/lógico/físico, 1FN/2FN/3FN, integridad referencial, TCL y agregaciones MongoDB.
+- [N3, Guía de estudio](https://drive.google.com/file/d/1nu6jIsqUi3VlkW7C2WZ0CnmLGEvjBOIv/view): componentes contenedores, Flutter/Dart, métodos HTTP, widgets, Firebase y manejo de errores.
+- [N4, Aplicaciones Web](https://drive.google.com/file/d/1x_96HtpRxgsboD2dHXQPA6w3Xqs2vAiA/view): rutas, 404, two-way binding, Angular CLI, HttpClient, CRUD, DI y snapshots del router.
+
+Los nuevos ítems están identificados `N1-GUIA-Q01..10`, `N2-GUIA-Q01..10`, `N3-GUIA-Q01..08` y `N4-GUIA-Q01..10`. Se escogieron definiciones y formulaciones distintas de los enunciados ya cargados. El simulacro de 40 preguntas puede mezclar, por cada núcleo, preguntas originales y preguntas de práctica de guía, siempre identificadas.
+
+**Commits:** `c64dfc571875caf9039df907ba8f64fd8773779c` (N1/N2); `ed5a80e90c334289c6ae615780716b5266679b9c` (N3/N4); `93a78d943a7dcad7d59acfc9d232ae941f259b40` (desglose y marca visible).
+
+Esta sección actualiza las cifras previas de este archivo. No sustituye las preguntas originales ni convierte material elaborado para practicar en una clave oficial del examen.
+
 ## Protocolo para posteriores cambios
 
 1. Abrir primero la memoria maestra, revisar pendientes y enlaces de las fuentes.
