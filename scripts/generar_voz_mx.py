@@ -67,7 +67,18 @@ def sentences(questions):
     result = {
         "intro": "Hola. ¿Listo para practicar? Vamos a comenzar con calma. Te escucharé y podrás confirmar cada respuesta.",
         "resume": "Qué gusto tenerte de vuelta. Retomamos donde nos quedamos.",
-        "correct": "¡Correcto! Muy bien. Cuando quieras seguimos. Di siguiente.",
+        "correct:1": "¡Correcto! Muy bien. Cuando quieras seguimos. Di siguiente.",
+        "correct:2": "¡Exacto! Esa era la respuesta. Muy bien, continuemos cuando tú quieras.",
+        "correct:3": "Sí, lo tienes. Vamos muy bien. Cuando estés listo, di siguiente.",
+        "correct:4": "¡Así es! Buena respuesta. Si quieres, seguimos con la siguiente.",
+        "confirm:A": "Entendí la opción A. ¿La confirmas? Di sí o no.",
+        "confirm:B": "Entendí la opción B. ¿La confirmas? Di sí o no.",
+        "confirm:C": "Entendí la opción C. ¿La confirmas? Di sí o no.",
+        "confirm:D": "Entendí la opción D. ¿La confirmas? Di sí o no.",
+        "confirm:E": "Entendí la opción E. ¿La confirmas? Di sí o no.",
+        "confirmHelp": "Para confirmar di sí, o di no para cambiar tu respuesta.",
+        "nextPrompt": "Si estás listo, di siguiente, o toca el botón continuar.",
+        "unrecognized": "No identifiqué una opción con seguridad. Di opción A, B, C o D, o tócala en pantalla.",
     }
     letters = "ABCDE"
     for q in questions:
