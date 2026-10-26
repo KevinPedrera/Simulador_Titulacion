@@ -9,4 +9,11 @@ async function login(email,password,register=false){if(auth.currentUser)return a
 async function logout(){await signOut(auth)}
 async function upload(session){const user=auth.currentUser;if(!user)throw Error('Inicia sesión con correo y contraseña primero');if(!session||!session.version)throw Error('No hay sesión para guardar');for(let tries=0;tries<15;tries++){const pin=String(crypto.getRandomValues(new Uint32Array(1))[0]%10000).padStart(4,'0');const ref=doc(db,'users',user.uid,'transfers',pin);const existing=await getDoc(ref);if(existing.exists()&&existing.data().expiresAt>Date.now())continue;await setDoc(ref,{session:JSON.stringify(session),expiresAt:Date.now()+24*60*60*1000,updatedAt:Date.now(),owner:user.uid});return pin}throw Error('No fue posible generar un PIN. Intenta nuevamente.')}
 async function download(pin){const user=auth.currentUser;if(!user)throw Error('Inicia sesión con correo y contraseña primero');if(!/^\d{4}$/.test(pin))throw Error('Introduce exactamente cuatro números');const ref=doc(db,'users',user.uid,'transfers',pin),snapshot=await getDoc(ref);if(!snapshot.exists())throw Error('No existe una sesión con ese PIN en tu cuenta');const data=snapshot.data();if(data.expiresAt<Date.now()){await deleteDoc(ref);throw Error('Este PIN ha caducado')}return JSON.parse(data.session)}
-window.firebaseSync={login,logout,upload,download,getUser:()=>auth.currentUser};
+const activeRef=()=>{if(!auth.currentUser)throw Error('Debes iniciar sesión');return doc(db,'users',auth.currentUser.uid,'simulator','active')};
+const historyRef=()=>{if(!auth.currentUser)throw Error('Debes iniciar sesión');return doc(db,'users',auth.currentUser.uid,'simulator','history')};
+async function saveActive(session){await setDoc(activeRef(),{session:JSON.stringify(session),updatedAt:Date.now()})}
+async function readActive(){const snap=await getDoc(activeRef());return snap.exists()?JSON.parse(snap.data().session):null}
+async function clearActive(){await deleteDoc(activeRef())}
+async function saveHistory(attempts){await setDoc(historyRef(),{attempts:JSON.stringify(attempts.slice(-100)),updatedAt:Date.now()})}
+async function readHistory(){const snap=await getDoc(historyRef());return snap.exists()?JSON.parse(snap.data().attempts):[]}
+window.firebaseSync={login,logout,upload,download,saveActive,readActive,clearActive,saveHistory,readHistory,getUser:()=>auth.currentUser};
