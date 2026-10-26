@@ -1,5 +1,215 @@
 window.PREGUNTAS = [
   {
+    "type": "choice",
+    "id": "N1-GUIA-Q01",
+    "nucleus": 1,
+    "partial": 0,
+    "number": 1,
+    "question": "¿Qué describe el patrón MVC según la guía del núcleo 1?",
+    "options": [
+      "Separa la aplicación en Modelo, Vista y Controlador con responsabilidades distintas",
+      "Agrupa toda la lógica de negocio en la vista",
+      "Sustituye la lógica de datos por estilos de interfaz",
+      "Elimina la necesidad de atender solicitudes del usuario"
+    ],
+    "correct": 0,
+    "answer": "Separa la aplicación en Modelo, Vista y Controlador con responsabilidades distintas",
+    "source": "Guía de la Unidad de Integración Curricular “Integración de la Información”-signed-signed.pdf · 4.2.1, Patrón de Diseño MVC",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/19-ziLbT7mQMe8btlhcLDbtY_fE91GbqA/view",
+    "guideConcept": "MVC - separación de responsabilidades",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N1-GUIA-Q02",
+    "nucleus": 1,
+    "partial": 0,
+    "number": 2,
+    "question": "En el patrón MVC, ¿cuál es la responsabilidad principal del Modelo?",
+    "options": [
+      "Gestionar los datos y las reglas de negocio",
+      "Renderizar únicamente los estilos visuales",
+      "Definir el diseño de los botones",
+      "Redirigir todas las URL sin procesar información"
+    ],
+    "correct": 0,
+    "answer": "Gestionar los datos y las reglas de negocio",
+    "source": "Guía de la Unidad de Integración Curricular “Integración de la Información”-signed-signed.pdf · 4.2.1, Modelo (en MVC)",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/19-ziLbT7mQMe8btlhcLDbtY_fE91GbqA/view",
+    "guideConcept": "MVC - Modelo",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N1-GUIA-Q03",
+    "nucleus": 1,
+    "partial": 0,
+    "number": 3,
+    "question": "¿Qué función cumple la Vista dentro del patrón MVC?",
+    "options": [
+      "Presentar visualmente la información al usuario",
+      "Almacenar directamente las credenciales de la base de datos",
+      "Resolver todas las reglas de negocio",
+      "Sustituir al controlador de solicitudes"
+    ],
+    "correct": 0,
+    "answer": "Presentar visualmente la información al usuario",
+    "source": "Guía de la Unidad de Integración Curricular “Integración de la Información”-signed-signed.pdf · 4.2.1, Vista (en MVC)",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/19-ziLbT7mQMe8btlhcLDbtY_fE91GbqA/view",
+    "guideConcept": "MVC - Vista",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N1-GUIA-Q04",
+    "nucleus": 1,
+    "partial": 0,
+    "number": 4,
+    "question": "¿Cuál es la responsabilidad del Controlador en MVC?",
+    "options": [
+      "Recibir solicitudes e intermediar entre el Modelo y la Vista",
+      "Guardar siempre los datos en archivos locales",
+      "Gestionar exclusivamente las hojas de estilo",
+      "Ejecutar la interfaz sin recibir solicitudes"
+    ],
+    "correct": 0,
+    "answer": "Recibir solicitudes e intermediar entre el Modelo y la Vista",
+    "source": "Guía de la Unidad de Integración Curricular “Integración de la Información”-signed-signed.pdf · 4.2.1, Controlador (en MVC)",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/19-ziLbT7mQMe8btlhcLDbtY_fE91GbqA/view",
+    "guideConcept": "MVC - Controlador",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N1-GUIA-Q05",
+    "nucleus": 1,
+    "partial": 0,
+    "number": 5,
+    "question": "Según la guía, ¿qué característica de Spring Boot reduce la configuración manual?",
+    "options": [
+      "La configuración automática y las dependencias predefinidas",
+      "La eliminación del lenguaje Java",
+      "El uso obligatorio de una base de datos documental",
+      "La ausencia de servidores web"
+    ],
+    "correct": 0,
+    "answer": "La configuración automática y las dependencias predefinidas",
+    "source": "Guía de la Unidad de Integración Curricular “Integración de la Información”-signed-signed.pdf · 4.2.1, Spring Boot",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/19-ziLbT7mQMe8btlhcLDbtY_fE91GbqA/view",
+    "guideConcept": "Spring Boot - configuración automática",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N1-GUIA-Q06",
+    "nucleus": 1,
+    "partial": 0,
+    "number": 6,
+    "question": "¿Qué principio implementa Spring Framework mediante su contenedor de beans?",
+    "options": [
+      "Inversión de Control (IoC)",
+      "Normalización de tablas en tercera forma normal",
+      "Enrutamiento estático de Angular",
+      "Renderización exclusiva de HTML"
+    ],
+    "correct": 0,
+    "answer": "Inversión de Control (IoC)",
+    "source": "Guía de la Unidad de Integración Curricular “Integración de la Información”-signed-signed.pdf · 6.2, Spring Framework",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/19-ziLbT7mQMe8btlhcLDbtY_fE91GbqA/view",
+    "guideConcept": "Inversión de control",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N1-GUIA-Q07",
+    "nucleus": 1,
+    "partial": 0,
+    "number": 7,
+    "question": "¿Qué expresa el patrón de Inyección de Dependencias (DI) en Spring?",
+    "options": [
+      "Los objetos reciben dependencias desde un contenedor externo",
+      "Cada objeto debe crear internamente todas sus dependencias",
+      "Los controladores sustituyen todas las entidades",
+      "La base de datos gestiona la interfaz sin servicios"
+    ],
+    "correct": 0,
+    "answer": "Los objetos reciben dependencias desde un contenedor externo",
+    "source": "Guía de la Unidad de Integración Curricular “Integración de la Información”-signed-signed.pdf · 6.2, Inyección de Dependencias",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/19-ziLbT7mQMe8btlhcLDbtY_fE91GbqA/view",
+    "guideConcept": "Inyección de dependencias",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N1-GUIA-Q08",
+    "nucleus": 1,
+    "partial": 0,
+    "number": 8,
+    "question": "¿Qué aporta Spring Data JPA al acceso a los datos?",
+    "options": [
+      "Implementación de repositorios JPA y consultas basadas en convenciones de nombres",
+      "La creación automática de interfaces móviles",
+      "El diseño de vistas mediante hojas CSS",
+      "La sustitución de Java por consultas SQL manuales"
+    ],
+    "correct": 0,
+    "answer": "Implementación de repositorios JPA y consultas basadas en convenciones de nombres",
+    "source": "Guía de la Unidad de Integración Curricular “Integración de la Información”-signed-signed.pdf · 6.2, Spring Data JPA",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/19-ziLbT7mQMe8btlhcLDbtY_fE91GbqA/view",
+    "guideConcept": "Spring Data JPA - repositorios",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N1-GUIA-Q09",
+    "nucleus": 1,
+    "partial": 0,
+    "number": 9,
+    "question": "¿Qué diferencia destaca la guía entre @Controller y @RestController?",
+    "options": [
+      "@RestController devuelve directamente datos; @Controller suele devolver vistas",
+      "@RestController solo permite modificar CSS",
+      "@Controller almacena documentos JSON en Firestore",
+      "Ambas anotaciones sustituyen completamente a los servicios"
+    ],
+    "correct": 0,
+    "answer": "@RestController devuelve directamente datos; @Controller suele devolver vistas",
+    "source": "Guía de la Unidad de Integración Curricular “Integración de la Información”-signed-signed.pdf · 4.2, Anotaciones principales en Spring Boot",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/19-ziLbT7mQMe8btlhcLDbtY_fE91GbqA/view",
+    "guideConcept": "@RestController y @Controller",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N1-GUIA-Q10",
+    "nucleus": 1,
+    "partial": 0,
+    "number": 10,
+    "question": "¿Qué tecnología menciona la guía como opción para implementar vistas en Spring Boot?",
+    "options": [
+      "Thymeleaf",
+      "MongoDB Compass",
+      "Firebase Authentication",
+      "Docker Compose"
+    ],
+    "correct": 0,
+    "answer": "Thymeleaf",
+    "source": "Guía de la Unidad de Integración Curricular “Integración de la Información”-signed-signed.pdf · 4.2, Implementación del patrón MVC",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/19-ziLbT7mQMe8btlhcLDbtY_fE91GbqA/view",
+    "guideConcept": "Vista Spring - Thymeleaf",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
     "type": "text",
     "answer": "UserService",
     "id": "N1-P1-Q1",
@@ -1078,6 +1288,216 @@ window.PREGUNTAS = [
     "number": 20,
     "question": "En Spring, la anotación @Autowired se usa para la inyección automática de dependencias.",
     "source": "EVALUACIÓN PARCIAL 4_ NUCLEO 1 _ ITSQMET.pdf"
+  },
+  {
+    "type": "choice",
+    "id": "N2-GUIA-Q01",
+    "nucleus": 2,
+    "partial": 0,
+    "number": 1,
+    "question": "¿Qué caracteriza al diseño conceptual de una base de datos?",
+    "options": [
+      "Representar entidades, atributos y relaciones independientemente del SGBD",
+      "Definir exclusivamente particiones e índices físicos",
+      "Programar directamente la interfaz web",
+      "Elegir primero los archivos de almacenamiento del servidor"
+    ],
+    "correct": 0,
+    "answer": "Representar entidades, atributos y relaciones independientemente del SGBD",
+    "source": "GUADEL_2.PDF · 4.2, Diseño Conceptual",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1voY4FbhtrkEVHjhClYcSUMkyqZ35YByz/view",
+    "guideConcept": "Diseño conceptual",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N2-GUIA-Q02",
+    "nucleus": 2,
+    "partial": 0,
+    "number": 2,
+    "question": "¿Qué se define principalmente durante el diseño lógico de una base de datos relacional?",
+    "options": [
+      "Tablas, claves primarias y foráneas y restricciones de integridad",
+      "La apariencia de la interfaz gráfica",
+      "Solamente la memoria RAM del servidor",
+      "Los colores de los diagramas"
+    ],
+    "correct": 0,
+    "answer": "Tablas, claves primarias y foráneas y restricciones de integridad",
+    "source": "GUADEL_2.PDF · 4.2, Diseño Lógico",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1voY4FbhtrkEVHjhClYcSUMkyqZ35YByz/view",
+    "guideConcept": "Diseño lógico",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N2-GUIA-Q03",
+    "nucleus": 2,
+    "partial": 0,
+    "number": 3,
+    "question": "Según la guía, ¿qué aspectos se consideran en el diseño físico de una base de datos?",
+    "options": [
+      "Organización del almacenamiento, índices, particiones y métodos de acceso",
+      "Únicamente nombres de entidades sin implementación",
+      "Solo las necesidades gráficas del usuario",
+      "La traducción de una vista HTML a JavaScript"
+    ],
+    "correct": 0,
+    "answer": "Organización del almacenamiento, índices, particiones y métodos de acceso",
+    "source": "GUADEL_2.PDF · 4.2, Diseño Físico",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1voY4FbhtrkEVHjhClYcSUMkyqZ35YByz/view",
+    "guideConcept": "Diseño físico",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N2-GUIA-Q04",
+    "nucleus": 2,
+    "partial": 0,
+    "number": 4,
+    "question": "¿Qué condición describe la Primera Forma Normal (1FN) en la guía?",
+    "options": [
+      "Cada atributo contiene un valor atómico o indivisible",
+      "Los atributos dependen de otros atributos no clave",
+      "Todos los documentos deben usar JSON",
+      "Cada tabla contiene exclusivamente una columna"
+    ],
+    "correct": 0,
+    "answer": "Cada atributo contiene un valor atómico o indivisible",
+    "source": "GUADEL_2.PDF · 4.2, Primera Forma Normal (1FN)",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1voY4FbhtrkEVHjhClYcSUMkyqZ35YByz/view",
+    "guideConcept": "Primera Forma Normal",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N2-GUIA-Q05",
+    "nucleus": 2,
+    "partial": 0,
+    "number": 5,
+    "question": "¿Qué requisito caracteriza la Segunda Forma Normal (2FN)?",
+    "options": [
+      "Estar en 1FN y evitar dependencias parciales de atributos no clave",
+      "Permitir atributos multivaluados",
+      "Eliminar las claves primarias",
+      "Usar obligatoriamente una base de datos NoSQL"
+    ],
+    "correct": 0,
+    "answer": "Estar en 1FN y evitar dependencias parciales de atributos no clave",
+    "source": "GUADEL_2.PDF · 4.2, Segunda Forma Normal (2FN)",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1voY4FbhtrkEVHjhClYcSUMkyqZ35YByz/view",
+    "guideConcept": "Segunda Forma Normal",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N2-GUIA-Q06",
+    "nucleus": 2,
+    "partial": 0,
+    "number": 6,
+    "question": "¿Qué se busca evitar en la Tercera Forma Normal (3FN)?",
+    "options": [
+      "Dependencias transitivas entre atributos no clave",
+      "El uso de consultas SQL",
+      "Las relaciones entre tablas",
+      "Las claves primarias de la base de datos"
+    ],
+    "correct": 0,
+    "answer": "Dependencias transitivas entre atributos no clave",
+    "source": "GUADEL_2.PDF · 4.2, Tercera Forma Normal (3FN)",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1voY4FbhtrkEVHjhClYcSUMkyqZ35YByz/view",
+    "guideConcept": "Tercera Forma Normal",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N2-GUIA-Q07",
+    "nucleus": 2,
+    "partial": 0,
+    "number": 7,
+    "question": "¿Qué garantiza la integridad referencial?",
+    "options": [
+      "Que no existan referencias a claves inexistentes entre tablas relacionadas",
+      "Que todas las columnas sean de tipo texto",
+      "Que no se puedan definir claves foráneas",
+      "Que una tabla no pueda tener registros"
+    ],
+    "correct": 0,
+    "answer": "Que no existan referencias a claves inexistentes entre tablas relacionadas",
+    "source": "GUADEL_2.PDF · 4.2, Integridad referencial",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1voY4FbhtrkEVHjhClYcSUMkyqZ35YByz/view",
+    "guideConcept": "Integridad referencial",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N2-GUIA-Q08",
+    "nucleus": 2,
+    "partial": 0,
+    "number": 8,
+    "question": "¿Qué instrucción TCL confirma una transacción y conserva sus cambios?",
+    "options": [
+      "COMMIT",
+      "ROLLBACK",
+      "SAVEPOINT",
+      "DELETE"
+    ],
+    "correct": 0,
+    "answer": "COMMIT",
+    "source": "GUADEL_2.PDF · 5.2, Instrucciones TCL",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1voY4FbhtrkEVHjhClYcSUMkyqZ35YByz/view",
+    "guideConcept": "COMMIT",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N2-GUIA-Q09",
+    "nucleus": 2,
+    "partial": 0,
+    "number": 9,
+    "question": "¿Qué instrucción TCL revierte los cambios de una transacción?",
+    "options": [
+      "ROLLBACK",
+      "COMMIT",
+      "CREATE",
+      "SELECT"
+    ],
+    "correct": 0,
+    "answer": "ROLLBACK",
+    "source": "GUADEL_2.PDF · 5.2, Instrucciones TCL",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1voY4FbhtrkEVHjhClYcSUMkyqZ35YByz/view",
+    "guideConcept": "ROLLBACK",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
+  },
+  {
+    "type": "choice",
+    "id": "N2-GUIA-Q10",
+    "nucleus": 2,
+    "partial": 0,
+    "number": 10,
+    "question": "¿Qué es un pipeline de agregación en MongoDB?",
+    "options": [
+      "Una secuencia ordenada de etapas que transforman documentos",
+      "Un controlador de vistas HTML",
+      "Una copia física obligatoria de cada colección",
+      "Una función exclusiva para crear usuarios SQL"
+    ],
+    "correct": 0,
+    "answer": "Una secuencia ordenada de etapas que transforman documentos",
+    "source": "GUADEL_2.PDF · 7.2, Pipeline de Agregación",
+    "sourceType": "guide",
+    "sourceUrl": "https://drive.google.com/file/d/1voY4FbhtrkEVHjhClYcSUMkyqZ35YByz/view",
+    "guideConcept": "Pipeline de agregación",
+    "answerVerification": "Pregunta de práctica redactada a partir de una definición de la guía; no procede de un examen parcial."
   },
   {
     "type": "choice",
