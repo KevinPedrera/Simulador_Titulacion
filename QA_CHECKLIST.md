@@ -54,3 +54,12 @@ https://docs.google.com/document/d/18wAVBIRJWlDghIcVKZsTpxmJ8TAqTv8lfwTCTBLRnFE/
 - La robustez acústica sigue limitada por `SpeechRecognition` del navegador y el ruido ambiental; estos cambios mejoran interpretación del texto reconocido, pero no sustituyen el motor acústico ni garantizan conversación fluida.
 - En Safari iOS no se dispone de un detector fiable de red celular; por protección del plan de datos, el ahorro se inicia activo en móviles hasta que el usuario lo desactive.
 - Verificación: pruebas estáticas de `app.js`, `voice-guide.js`, `data-saver.js`, `sw.js`, intérprete de respuestas y versión PWA v19 correctas. Pendiente probar audio, reconocimiento y consumo real en dispositivos físicos.
+
+## v20 — Preguntas y opciones aleatorias (26-10-2026)
+
+- En cada **intento nuevo** se mezcla el orden de las preguntas y también el orden de las alternativas A/B/C/D/E en las preguntas de opción múltiple, tanto en el estudio por núcleo, en el simulacro teórico como en el examen guiado por voz.
+- Se genera una copia de cada pregunta: `preguntas.js` y su respuesta documental `answer` quedan intactos. Cuando una alternativa cambia de posición, su índice correcto `correct` se recalcula mediante el índice original y no por coincidencia aproximada de textos.
+- Los resultados y el historial conservan las opciones **en el orden que vio el estudiante**, junto con el índice correcto reajustado. Un intento pausado/recuperado conserva el mismo orden y no se mezcla de nuevo.
+- En el examen guiado se desactivaron los clips de audio pregrabados que enumeraban opciones en el orden anterior; el navegador leerá el orden que realmente ve el estudiante. Igualmente, el audio correctivo pregrabado no se utiliza porque podría anunciar otra letra.
+- **Prueba automatizada ejecutada:** 197 preguntas de opción múltiple × 80 permutaciones = **15 760 comprobaciones**, sin pérdidas ni alteraciones de opciones, identificadores, respuestas fuente o posiciones correctas; las 197 mostraron distintas posiciones correctas durante la prueba.
+- Aleatorio significa que las permutaciones cambian entre intentos con alta probabilidad, no que sea matemáticamente imposible que alguna opción coincida con la posición anterior.
