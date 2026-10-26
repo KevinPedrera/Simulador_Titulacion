@@ -9,3 +9,8 @@ node_modules/
 *.tmp
 *.bak
 *.zip
+
+# Modelos de voz y cachés locales (no versionar pesos de 63 MB)
+.voice-models/
+__pycache__/
+*.wav
