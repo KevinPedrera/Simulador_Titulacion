@@ -19,8 +19,8 @@ Este documento contiene el inventario y los enlaces de **16 evaluaciones PDF**, 
 ## Pendientes de verificación
 
 - **N2**: la misma pregunta de modelo conceptual Entidad-Relación consta dos veces con diferente orden de opciones (N2-P1-Q4 y N2-P1-Q5).
-- **N3**: existen los PDF originales de **pruebas 3 y 4** en Drive, legibles mediante la conexión; las preguntas faltan como registros oficiales identificados en `preguntas.js`. Las respuestas deben contrastarse antes de incorporarlas.
-- **N4**: existen los PDF originales de **pruebas 3 y 4**, pero su extracción de texto por Drive devolvió contenido vacío. Requieren inspección de sus páginas, no supuestos.
+- **N3**: los PDF de pruebas 1 y 2 tienen 10 preguntas cada uno, pero el banco marca 9 preguntas originales de cada PDF. Los PDF de **pruebas 3 y 4** también existen en Drive y devuelven texto, pero sus preguntas no figuran como registros originales identificados en `preguntas.js`. Las respuestas deben contrastarse antes de incorporarlas.
+- **N4**: el banco marca solo 9 preguntas originales de prueba 1 y 7 de prueba 2, por lo que requieren cotejo adicional. Existen los PDF de **pruebas 3 y 4**, pero su extracción de texto por Drive devolvió contenido vacío. Requieren inspección de páginas, no supuestos.
 - Las **46 preguntas elaboradas** son material de práctica basado en guías, **no se deben presentar como copia de evaluaciones oficiales**.
 
 ## Protocolo para posteriores cambios
