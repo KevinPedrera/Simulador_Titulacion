@@ -6,22 +6,29 @@ Documento vivo guardado en **Google Drive > Titulacion**:
 
 Este documento contiene el inventario y los enlaces de **16 evaluaciones PDF**, **4 guías de estudio**, referencias de transcripciones, el análisis del banco actual y **199 registros de preguntas distintas** con ID, enunciado, respuesta y origen.
 
-## Situación del banco
+## Estado vigente: banco estrictamente documental (25 de octubre de 2026)
 
-| Núcleo | Registros en preguntas.js | Distintas disponibles | Evaluaciones marcadas como PDF | Elaboradas desde guía |
-| --- | ---: | ---: | ---: | ---: |
-| 1 — Spring Boot y Java | 80 | 80 | 80 | 0 |
-| 2 — Bases de datos | 40 | 39 | 39 | 0 |
-| 3 — Aplicaciones móviles | 40 | 40 | 18 | 22 |
-| 4 — Aplicaciones web | 40 | 40 | 16 | 24 |
-| **Total** | **200** | **199** | **153** | **46** |
+**Fuente exclusiva del banco activo: preguntas y claves explícitas de las evaluaciones PDF.** Se excluyeron las preguntas elaboradas a partir de las guías, sin atribuirlas a exámenes oficiales.
 
-## Pendientes de verificación
+| Núcleo | Registros respaldados por PDF | Preguntas distintas |
+| --- | ---: | ---: |
+| 1 — Spring Boot y Java | 80 | 80 |
+| 2 — Bases de datos | 40 | 39 |
+| 3 — Aplicaciones móviles | 20 | 20 |
+| 4 — Aplicaciones web | 20 | 20 |
+| **Total** | **160** | **159** |
 
-- **N2**: la misma pregunta de modelo conceptual Entidad-Relación consta dos veces con diferente orden de opciones (N2-P1-Q4 y N2-P1-Q5).
-- **N3**: los PDF de pruebas 1 y 2 tienen 10 preguntas cada uno, pero el banco marca 9 preguntas originales de cada PDF. Los PDF de **pruebas 3 y 4** también existen en Drive y devuelven texto, pero sus preguntas no figuran como registros originales identificados en `preguntas.js`. Las respuestas deben contrastarse antes de incorporarlas.
-- **N4**: el banco marca solo 9 preguntas originales de prueba 1 y 7 de prueba 2, por lo que requieren cotejo adicional. Existen los PDF de **pruebas 3 y 4**, pero su extracción de texto por Drive devolvió contenido vacío. Requieren inspección de páginas, no supuestos.
-- Las **46 preguntas elaboradas** son material de práctica basado en guías, **no se deben presentar como copia de evaluaciones oficiales**.
+Se recuperaron, con pregunta, opciones y respuesta **expresa en los PDF**, seis ítems omitidos: `N3-P1-Q8`, `N3-P2-Q1`, `N4-P1-Q7`, `N4-P2-Q1`, `N4-P2-Q2`, `N4-P2-Q6`. Commit de banco: `f5d6c0869d670d5d8879250fb3df8d79dfbe3df4`.
+
+Se retiraron del banco activo **46 preguntas elaboradas** a partir de guías de estudio (22 del núcleo 3 y 24 del núcleo 4), preservadas solo en versiones anteriores del repositorio.
+
+### Material identificado pero no calificable sin evidencia adicional
+
+- **Núcleo 3, pruebas 3 y 4:** hay 10 preguntas en cada PDF y sus opciones se pueden leer. Sin embargo, las copias disponibles no muestran clave explícita de corrección (figura «Finalizado Se puntúa como 0 sobre 1,00»); no se debe asignar una respuesta inferida.
+- **Núcleo 4, pruebas 3 y 4:** existen en Drive, pero el conector no devolvió texto. Es necesario inspeccionar imágenes de sus páginas antes de incorporar contenido.
+- **Núcleo 2:** `N2-P1-Q4` y `N2-P1-Q5` repiten el mismo enunciado y respuesta con opciones en orden diferente; el simulador conserva una sola al deduplicar.
+
+La memoria maestra contiene los enlaces originales, inventario de transcripciones, incidencias y preguntas. El código `preguntas.js` es el origen del banco activo, no la lista histórica del documento.
 
 ## Protocolo para posteriores cambios
 
