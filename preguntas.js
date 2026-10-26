@@ -2438,5 +2438,346 @@ window.PREGUNTAS = [
     "number": 10,
     "question": "¿Qué método se utiliza para navegar a una ruta programáticamente en Angular?",
     "source": "NUCLEO 4 PRUEBA 2.pdf"
+  },
+  {
+    "id": "N4-P3-Q1",
+    "nucleus": 4,
+    "partial": 3,
+    "number": 1,
+    "type": "choice",
+    "question": "¿Por qué es recomendable usar Observables al trabajar con Firestore en Angular?",
+    "options": [
+      "Porque permite suscribirse a cambios en los datos en tiempo real",
+      "Porque reduce el tamaño de la base de datos",
+      "Porque Firestore solo funciona con Observables",
+      "Porque evita el uso de promesas en Angular"
+    ],
+    "correct": 0,
+    "answer": "Porque permite suscribirse a cambios en los datos en tiempo real",
+    "source": "NUCLEO 4 PRUEBA 3.pdf"
+  },
+  {
+    "id": "N4-P3-Q2",
+    "nucleus": 4,
+    "partial": 3,
+    "number": 2,
+    "type": "choice",
+    "question": "¿Qué importación es necesaria para inicializar Firestore en Angular con `@angular/fire`?",
+    "options": [
+      "import { provideFirestore, getFirestore } from '@angular/fire/firestore'",
+      "import { AngularFirestore } from '@angular/fire/firestore'",
+      "import { FirestoreModule } from '@angular/fire/firestore'",
+      "import { initializeFirestore } from '@angular/fire/firestore'"
+    ],
+    "correct": 0,
+    "answer": "import { provideFirestore, getFirestore } from '@angular/fire/firestore'",
+    "source": "NUCLEO 4 PRUEBA 3.pdf"
+  },
+  {
+    "id": "N4-P3-Q3",
+    "nucleus": 4,
+    "partial": 3,
+    "number": 3,
+    "type": "choice",
+    "question": "¿Qué función de `Firestore` permite agregar un nuevo documento a una colección en Firestore?",
+    "options": [
+      "addDoc(collectionRef, data)",
+      "setDoc(collectionRef, data)",
+      "updateDoc(collectionRef, data)",
+      "createDoc(collectionRef, data)"
+    ],
+    "correct": 0,
+    "answer": "addDoc(collectionRef, data)",
+    "source": "NUCLEO 4 PRUEBA 3.pdf"
+  },
+  {
+    "id": "N4-P3-Q4",
+    "nucleus": 4,
+    "partial": 3,
+    "number": 4,
+    "type": "choice",
+    "question": "¿Cuál es la forma correcta de obtener datos en tiempo real desde una colección de Firestore en Angular?",
+    "options": [
+      "Usando la función `collectionData()`",
+      "Usando `getDocs()` en cada consulta",
+      "Iterando manualmente sobre la colección con un bucle `forEach()`",
+      "Creando una nueva suscripción con `onSnapshot()`"
+    ],
+    "correct": 0,
+    "answer": "Usando la función `collectionData()`",
+    "source": "NUCLEO 4 PRUEBA 3.pdf"
+  },
+  {
+    "id": "N4-P3-Q5",
+    "nucleus": 4,
+    "partial": 3,
+    "number": 5,
+    "type": "choice",
+    "question": "¿Cómo se inyecta un servicio en un componente de Angular?",
+    "options": [
+      "Agregando el servicio en el constructor del componente",
+      "Importándolo en el archivo HTML del componente",
+      "Usando la función `injectService()`",
+      "Creando una nueva instancia del servicio dentro del componente"
+    ],
+    "correct": 0,
+    "answer": "Agregando el servicio en el constructor del componente",
+    "source": "NUCLEO 4 PRUEBA 3.pdf"
+  },
+  {
+    "id": "N4-P3-Q6",
+    "nucleus": 4,
+    "partial": 3,
+    "number": 6,
+    "type": "choice",
+    "question": "¿Cuál de los siguientes métodos se usa para autenticar usuarios con Google en AngularFire?",
+    "options": [
+      "signInWithPopup(auth, provider)",
+      "loginWithGoogle(auth, provider)",
+      "signInWithGoogle(auth, provider)",
+      "authenticateWithGoogle(auth, provider)"
+    ],
+    "correct": 0,
+    "answer": "signInWithPopup(auth, provider)",
+    "source": "NUCLEO 4 PRUEBA 3.pdf"
+  },
+  {
+    "id": "N4-P3-Q7",
+    "nucleus": 4,
+    "partial": 3,
+    "number": 7,
+    "type": "choice",
+    "question": "¿Cómo se elimina un documento en Firestore desde Angular?",
+    "options": [
+      "deleteDoc(docRef)",
+      "removeDoc(docRef)",
+      "eraseDoc(docRef)",
+      "destroyDoc(docRef)"
+    ],
+    "correct": 0,
+    "answer": "deleteDoc(docRef)",
+    "source": "NUCLEO 4 PRUEBA 3.pdf"
+  },
+  {
+    "id": "N4-P3-Q8",
+    "nucleus": 4,
+    "partial": 3,
+    "number": 8,
+    "type": "choice",
+    "question": "¿Qué función de Firestore se usa para actualizar un documento existente sin sobrescribir todo el contenido?",
+    "options": [
+      "updateDoc(docRef, data)",
+      "setDoc(docRef, data)",
+      "replaceDoc(docRef, data)",
+      "editDoc(docRef, data)"
+    ],
+    "correct": 0,
+    "answer": "updateDoc(docRef, data)",
+    "source": "NUCLEO 4 PRUEBA 3.pdf"
+  },
+  {
+    "id": "N4-P3-Q9",
+    "nucleus": 4,
+    "partial": 3,
+    "number": 9,
+    "type": "choice",
+    "question": "¿Cuál es el propósito principal de los servicios en Angular?",
+    "options": [
+      "Proporcionar lógica reutilizable y compartir datos entre componentes",
+      "Definir la estructura de los componentes",
+      "Estilizar los componentes de la aplicación",
+      "Manejar solo las rutas de la aplicación"
+    ],
+    "correct": 0,
+    "answer": "Proporcionar lógica reutilizable y compartir datos entre componentes",
+    "source": "NUCLEO 4 PRUEBA 3.pdf"
+  },
+  {
+    "id": "N4-P3-Q10",
+    "nucleus": 4,
+    "partial": 3,
+    "number": 10,
+    "type": "choice",
+    "question": "¿Cuál de los siguientes módulos de `@angular/fire` es necesario para trabajar con Firestore?",
+    "options": [
+      "provideFirestore",
+      "provideAuth",
+      "provideStorage",
+      "provideFunctions"
+    ],
+    "correct": 0,
+    "answer": "provideFirestore",
+    "source": "NUCLEO 4 PRUEBA 3.pdf"
+  },
+  {
+    "id": "N4-P4-Q1",
+    "nucleus": 4,
+    "partial": 4,
+    "number": 1,
+    "type": "choice",
+    "question": "Para usar formularios reactivos en un componente standalone, ¿qué importación es necesaria?",
+    "options": [
+      "import { ReactiveFormsModule } from '@angular/forms'; en imports del componente",
+      "import { FormsModule } from '@angular/forms'; en imports del componente",
+      "No se necesita importar nada, viene por defecto",
+      "import { NgModel } from '@angular/forms'; en imports del componente"
+    ],
+    "correct": 0,
+    "answer": "import { ReactiveFormsModule } from '@angular/forms'; en imports del componente",
+    "source": "NUCLEO 4 PRUEBA 4.pdf"
+  },
+  {
+    "id": "N4-P4-Q2",
+    "nucleus": 4,
+    "partial": 4,
+    "number": 2,
+    "type": "choice",
+    "question": "¿Cuál es el propósito principal del guardián CanActivate en Angular cuando se trabaja con formularios?",
+    "options": [
+      "Controlar si un usuario puede acceder a una ruta donde se encuentra un formulario, basado en condiciones como autenticación o roles",
+      "Validar los campos de un formulario antes de que el usuario pueda enviarlo",
+      "Prevenir que un usuario abandone un formulario sin guardar los cambios",
+      "Activar o desactivar controles de formulario dinámicamente basado en condiciones",
+      "Gestionar el estado de carga (loading) de un formulario antes de mostrarlo"
+    ],
+    "correct": 0,
+    "answer": "Controlar si un usuario puede acceder a una ruta donde se encuentra un formulario, basado en condiciones como autenticación o roles",
+    "source": "NUCLEO 4 PRUEBA 4.pdf"
+  },
+  {
+    "id": "N4-P4-Q3",
+    "nucleus": 4,
+    "partial": 4,
+    "number": 3,
+    "type": "choice",
+    "question": "¿Dónde se colocaría una validación que compara si dos campos password coinciden?",
+    "options": [
+      "Como validador en el FormGroup que contiene ambos campos",
+      "Como validador en cada uno de los campos password",
+      "En el template con directivas personalizadas",
+      "En el servicio que procesa el formulario"
+    ],
+    "correct": 0,
+    "answer": "Como validador en el FormGroup que contiene ambos campos",
+    "source": "NUCLEO 4 PRUEBA 4.pdf"
+  },
+  {
+    "id": "N4-P4-Q4",
+    "nucleus": 4,
+    "partial": 4,
+    "number": 4,
+    "type": "choice",
+    "question": "¿Cómo se implementa un validador personalizado que verifique si un campo contiene al menos un número?",
+    "options": [
+      "function containsNumber(control: FormControl) {\n  if (!/\\d/.test(control.value)) {\n    return { containsNumber: true };\n  }\n  return null;\n}",
+      "function containsNumber() {\n  return (control) => control.value.includes('number');\n}",
+      "function containsNumber(control: FormControl) {\n  return control.value.match(/\\d/);\n}",
+      "function containsNumber(value: string) {\n  return value.search(/\\d/) !== -1;\n}"
+    ],
+    "correct": 0,
+    "answer": "function containsNumber(control: FormControl) {\n  if (!/\\d/.test(control.value)) {\n    return { containsNumber: true };\n  }\n  return null;\n}",
+    "source": "NUCLEO 4 PRUEBA 4.pdf"
+  },
+  {
+    "id": "N4-P4-Q5",
+    "nucleus": 4,
+    "partial": 4,
+    "number": 5,
+    "type": "choice",
+    "question": "¿Qué tipo de guardián sería más apropiado para prevenir que un usuario abandone una página con un formulario sin guardar?",
+    "options": [
+      "CanDeactivate",
+      "CanActivate",
+      "CanLoad",
+      "CanMatch"
+    ],
+    "correct": 0,
+    "answer": "CanDeactivate",
+    "source": "NUCLEO 4 PRUEBA 4.pdf"
+  },
+  {
+    "id": "N4-P4-Q6",
+    "nucleus": 4,
+    "partial": 4,
+    "number": 6,
+    "type": "choice",
+    "question": "¿Cómo se añade un nuevo control a un FormArray en un componente standalone?",
+    "options": [
+      "this.skillsArray.push(new FormControl('', Validators.required));",
+      "this.skillsArray.addControl(new FormControl(''));",
+      "this.skillsArray.insert(new FormGroup(''));",
+      "this.skillsArray.add(new FormControl(''));"
+    ],
+    "correct": 0,
+    "answer": "this.skillsArray.push(new FormControl('', Validators.required));",
+    "source": "NUCLEO 4 PRUEBA 4.pdf"
+  },
+  {
+    "id": "N4-P4-Q7",
+    "nucleus": 4,
+    "partial": 4,
+    "number": 7,
+    "type": "choice",
+    "question": "¿Cuál de las siguientes afirmaciones es correcta sobre los formularios reactivos en Angular?",
+    "options": [
+      "Utilizan clases como FormControl, FormGroup y FormArray para manejar el estado del formulario",
+      "El template maneja directamente el estado del formulario",
+      "No soportan validación de formularios",
+      "Requieren el módulo FormsModule pero no ReactiveFormsModule"
+    ],
+    "correct": 0,
+    "answer": "Utilizan clases como FormControl, FormGroup y FormArray para manejar el estado del formulario",
+    "source": "NUCLEO 4 PRUEBA 4.pdf"
+  },
+  {
+    "id": "N4-P4-Q8",
+    "nucleus": 4,
+    "partial": 4,
+    "number": 8,
+    "type": "choice",
+    "question": "¿Qué propiedad de un FormControl permite verificar si el usuario ha interactuado con el control?",
+    "options": [
+      "touched",
+      "dirty",
+      "valid",
+      "pristine"
+    ],
+    "correct": 0,
+    "answer": "touched",
+    "source": "NUCLEO 4 PRUEBA 4.pdf"
+  },
+  {
+    "id": "N4-P4-Q9",
+    "nucleus": 4,
+    "partial": 4,
+    "number": 9,
+    "type": "choice",
+    "question": "¿Cómo se definiría un FormGroup para un formulario de login (con campos email y password) en un componente standalone?",
+    "options": [
+      "loginForm = new FormGroup({\n  email: new FormControl('', [Validators.required, Validators.email]),\n  password: new FormControl('', Validators.required)\n});",
+      "loginForm = new FormArray([\n  new FormControl('email'),\n  new FormControl('password')\n]);",
+      "loginForm = new FormControl({\n  email: '',\n  password: ''\n});",
+      "loginForm = FormGroup.create({\n  email: '',\n  password: ''\n});"
+    ],
+    "correct": 0,
+    "answer": "loginForm = new FormGroup({\n  email: new FormControl('', [Validators.required, Validators.email]),\n  password: new FormControl('', Validators.required)\n});",
+    "source": "NUCLEO 4 PRUEBA 4.pdf"
+  },
+  {
+    "id": "N4-P4-Q10",
+    "nucleus": 4,
+    "partial": 4,
+    "number": 10,
+    "type": "choice",
+    "question": "¿Cómo se crea correctamente un FormControl con un valor por defecto y un validador requerido en un componente standalone?",
+    "options": [
+      "email = new FormControl('', Validators.required);",
+      "email = new FormControl(Validators.required);",
+      "email = FormControl.create('', Validators.required);",
+      "email = new FormGroup('', [Validators.required]);"
+    ],
+    "correct": 0,
+    "answer": "email = new FormControl('', Validators.required);",
+    "source": "NUCLEO 4 PRUEBA 4.pdf"
   }
 ];
