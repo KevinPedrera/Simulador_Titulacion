@@ -8,27 +8,28 @@ Este documento contiene el inventario y los enlaces de **16 evaluaciones PDF**, 
 
 ## Estado vigente: banco estrictamente documental (25 de octubre de 2026)
 
-**Fuente exclusiva del banco activo: preguntas y claves explícitas de las evaluaciones PDF.** Se excluyeron las preguntas elaboradas a partir de las guías, sin atribuirlas a exámenes oficiales.
+Las preguntas del banco activo provienen de las evaluaciones PDF; **ninguna pregunta elaborada por IA se presenta como original**.
 
 | Núcleo | Registros respaldados por PDF | Preguntas distintas |
 | --- | ---: | ---: |
 | 1 — Spring Boot y Java | 80 | 80 |
 | 2 — Bases de datos | 40 | 39 |
 | 3 — Aplicaciones móviles | 20 | 20 |
-| 4 — Aplicaciones web | 20 | 20 |
-| **Total** | **160** | **159** |
+| 4 — Aplicaciones web | 40 | 40 |
+| **Total** | **180** | **179** |
 
-Se recuperaron, con pregunta, opciones y respuesta **expresa en los PDF**, seis ítems omitidos: `N3-P1-Q8`, `N3-P2-Q1`, `N4-P1-Q7`, `N4-P2-Q1`, `N4-P2-Q2`, `N4-P2-Q6`. Commit de banco: `f5d6c0869d670d5d8879250fb3df8d79dfbe3df4`.
+- Se reincorporaron seis preguntas de N3 y N4 a partir de PDF textuales, con enunciado, opciones y clave documentados. Commit `f5d6c0869d670d5d8879250fb3df8d79dfbe3df4`.
+- Se inspeccionaron las páginas originales escaneadas de los PDF **N4 pruebas 3 y 4** y se incorporaron **20 preguntas**, con opciones y claves resaltadas en el PDF. Commit `67366c58c45d7f3efb933b645431c4ce496a7ed1`.
+- Las 46 preguntas elaboradas para estudio desde las guías quedaron excluidas del banco activo.
+- **Único vacío documental:** las 20 preguntas de **N3 pruebas 3 y 4** se pueden leer en sus PDFs, pero el contenido de revisión disponible **no identifica las opciones correctas**. No se asignaron claves ni se incorporaron al examen autocorregible.
+- **N2**: la pregunta sobre el modelo ER aparece dos veces, como `N2-P1-Q4` y `N2-P1-Q5`, con distinta permutación de opciones. El simulador deduplica el texto y expone 39 preguntas únicas.
 
-Se retiraron del banco activo **46 preguntas elaboradas** a partir de guías de estudio (22 del núcleo 3 y 24 del núcleo 4), preservadas solo en versiones anteriores del repositorio.
+### Enlaces de evidencia para los PDF escaneados
 
-### Material identificado pero no calificable sin evidencia adicional
+- [N4 — Prueba 3](https://drive.google.com/file/d/1hM4lnLhGIpuSH5uWcUWASWKsuHeKEKZL/view)
+- [N4 — Prueba 4](https://drive.google.com/file/d/1zQe0ioeKDzhHb-XWeVXfoS0b_h_vaXtY/view)
 
-- **Núcleo 3, pruebas 3 y 4:** hay 10 preguntas en cada PDF y sus opciones se pueden leer. Sin embargo, las copias disponibles no muestran clave explícita de corrección (figura «Finalizado Se puntúa como 0 sobre 1,00»); no se debe asignar una respuesta inferida.
-- **Núcleo 4, pruebas 3 y 4:** existen en Drive, pero el conector no devolvió texto. Es necesario inspeccionar imágenes de sus páginas antes de incorporar contenido.
-- **Núcleo 2:** `N2-P1-Q4` y `N2-P1-Q5` repiten el mismo enunciado y respuesta con opciones en orden diferente; el simulador conserva una sola al deduplicar.
-
-La memoria maestra contiene los enlaces originales, inventario de transcripciones, incidencias y preguntas. El código `preguntas.js` es el origen del banco activo, no la lista histórica del documento.
+La [memoria maestra en Drive](https://docs.google.com/document/d/18wAVBIRJWlDghIcVKZsTpxmJ8TAqTv8lfwTCTBLRnFE/edit) conserva el inventario histórico, las fuentes y el seguimiento de cada corrección. Las secciones antiguas representan estados anteriores del banco, no el vigente.
 
 ## Protocolo para posteriores cambios
 
