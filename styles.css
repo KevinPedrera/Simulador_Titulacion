@@ -31,3 +31,16 @@
 
 /* Login-first screen */
 .login-hero{max-width:720px;margin:28px auto 0}.login-hero .auth-panel{max-width:470px;margin:24px auto 0;padding:22px;border:1px solid #303440;border-radius:18px;background:#111319}.login-hero .auth-panel input{max-width:none}.login-hero .auth-panel .actions{display:flex;gap:12px;flex-wrap:wrap}.login-hero .auth-panel .btn{flex:1 1 165px}.login-hero #login-status{margin-top:12px;min-height:18px}
+
+/* UX/UI refinements v16: readable contrast, keyboard/touch affordances, reduced motion */
+:where(button,a,input,select,textarea,summary):focus-visible{outline:3px solid #b9c4ff;outline-offset:3px}
+:where(.btn,.option,.back-link){-webkit-tap-highlight-color:transparent}
+.option:focus-within{outline:2px solid #b9c4ff;outline-offset:2px}
+.option input{flex:0 0 auto;min-width:17px;min-height:17px}
+.quiz-card{min-width:0;overflow-wrap:anywhere}
+.quiz-toolbar{gap:12px}
+.timer-label,.clock{font-variant-numeric:tabular-nums}
+.review-question,.answer-line{overflow-wrap:anywhere}
+.saved-banner{margin-bottom:18px}
+@media(max-width:600px){.wrap{padding:15px 15px 60px}.quiz-card{padding:19px 16px}.option{padding:15px 13px;min-height:52px}.question{line-height:1.48}.actions>.btn{flex:1 1 auto}.review{padding:17px 15px}.top{margin-bottom:20px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
