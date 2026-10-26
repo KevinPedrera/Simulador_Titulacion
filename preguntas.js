@@ -1570,23 +1570,6 @@ window.PREGUNTAS = [
   {
     "type": "choice",
     "options": [
-      "En el diseño conceptual",
-      "En la administración de la base de datos",
-      "En la programación de las consultas SQL",
-      "En el diseño físico de los datos"
-    ],
-    "correct": 0,
-    "answer": "En el diseño conceptual",
-    "id": "N2-P1-Q5",
-    "nucleus": 2,
-    "partial": 1,
-    "number": 5,
-    "question": "¿En qué etapa del diseño de bases de datos se usa un modelo Entidad-Relación (ER)?",
-    "source": "NUCLEO 2 PRUEBA 1.pdf"
-  },
-  {
-    "type": "choice",
-    "options": [
       "El proceso de organizar los datos para mejorar su consistencia y evitar duplicados",
       "El proceso de eliminar la redundancia de los datos mediante la organización de tablas",
       "El proceso de dividir los datos en tablas relacionadas para optimizar el almacenamiento",
