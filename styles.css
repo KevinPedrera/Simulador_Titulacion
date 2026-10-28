@@ -66,3 +66,14 @@
 .review-bottom{margin:26px 0 50px;justify-content:center}.review-bottom .btn{min-width:190px}
 @media(max-width:650px){.data-saving-card .row{align-items:flex-start;flex-direction:column}.data-saving-card{padding:19px 16px}.review-bottom .btn{width:100%}}
 .data-saver .vg-orb{box-shadow:none}
+
+/* v21 – progreso y práctica adaptativa */
+.adaptive-card{margin:16px 0 18px;padding:21px 24px}
+.adaptive-card h2{font-size:19px;margin:0 0 5px}
+.adaptive-card p{margin:3px 0 7px}
+.adaptive-card .pill{white-space:normal;text-align:center}
+.adaptive-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0}
+.adaptive-metrics>div{padding:14px;background:#191b23;border:1px solid #343644;border-radius:12px;display:flex;flex-direction:column;gap:3px}
+.adaptive-metrics b{font-size:23px;font-variant-numeric:tabular-nums}
+.adaptive-metrics span{font-size:12px;color:#aeb0bf}
+@media(max-width:650px){.adaptive-card{padding:18px 15px}.adaptive-metrics>div{padding:11px 8px}.adaptive-metrics b{font-size:19px}.adaptive-metrics span{font-size:11px}}
